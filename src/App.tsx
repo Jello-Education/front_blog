@@ -1,13 +1,16 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-function App() {
-  return (
-    <div>
-      <header>
-        <p>Hello World</p>
-      </header>
-    </div>
-  );
-}
+import GlobalStyle from './sytles/global';
+import Routes from './routes';
+
+const App: React.FC = () => (
+  <>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+    <GlobalStyle />
+  </>
+);
 
 export default App;
