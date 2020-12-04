@@ -1,6 +1,15 @@
 import React from 'react';
 
-import { Container, Header, HeaderContent, Title, NavBar } from './styles';
+import homeBackgroundImage from '../../assets/homeBackgroundImage.png';
+
+import {
+  Container,
+  Header,
+  HeaderContent,
+  Title,
+  NavBar,
+  Background,
+} from './styles';
 
 import logoJello from '../../assets/logoJello.png';
 import NavLink from '../../components/NavLink';
@@ -22,6 +31,11 @@ const Home: React.FC = () => {
           </NavBar>
         </HeaderContent>
       </Header>
+
+      <Background>
+        <div />
+        <img src={homeBackgroundImage} alt="Imagem de fundo da Home" />
+      </Background>
     </Container>
   );
 };
