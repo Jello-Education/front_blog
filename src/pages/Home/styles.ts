@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
+  display: block;
   height: 100vh;
 `;
 
@@ -11,9 +12,6 @@ export const Header = styled.header`
   padding: 8px 0;
   background: #fafafa;
   border-radius: 0 0 20px 20px;
-  z-index: 2;
-  /*   border: 1px solid;
-  border-color: #d6d6d6; */
 `;
 
 export const HeaderContent = styled.div`
@@ -48,7 +46,8 @@ export const NavBar = styled.div`
 `;
 
 export const Background = styled.div`
-  position: -webkit-sticky;
+  position: relative;
+  top: 57px;
   z-index: -1;
   width: 100%;
 
@@ -60,39 +59,42 @@ export const Background = styled.div`
     background: rgba(214, 214, 214, 0.7);
     margin-left: 24px;
     margin-top: 193px;
+    overflow: hidden;
   }
 
   img {
     width: 100%;
-    position: absolute;
     top: 57px;
   }
 `;
 
 export const SearchContainer = styled.div`
-  position: relative;
+  display: flex;
   height: 195px;
   background: #f2f2f2;
   border-radius: 53px 53px 0 0;
-  display: flex;
   align-items: center;
   justify-content: center;
-  top: 660px;
+  margin-top: 20px;
 `;
 
 export const InputSearchContainer = styled.div`
+  display: flex;
   width: 920px;
   background: #fafafa;
   border-radius: 35px;
-  display: flex;
   justify-content: space-between;
-  padding: 12px 25px 12px 45px;
+  padding: 12px 25px 12px 25px;
 
   input {
     border: none;
+    background: transparent;
+    width: 400px;
 
     ::placeholder {
       color: #b0a8a8;
+      font-size: 24px;
+      overflow: visible;
     }
   }
 
