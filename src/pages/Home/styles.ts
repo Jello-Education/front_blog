@@ -1,15 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  position: relative;
   height: 100vh;
 `;
 
 export const Header = styled.header`
-  position: relative;
+  position: fixed;
+  width: 100%;
   padding: 8px 0;
   background: #fafafa;
   border-radius: 0 0 20px 20px;
   z-index: 2;
+  /*   border: 1px solid;
+  border-color: #d6d6d6; */
 `;
 
 export const HeaderContent = styled.div`
@@ -44,7 +48,9 @@ export const NavBar = styled.div`
 `;
 
 export const Background = styled.div`
+  position: -webkit-sticky;
   z-index: -1;
+  width: 100%;
 
   div {
     position: absolute;
@@ -57,7 +63,47 @@ export const Background = styled.div`
   }
 
   img {
+    width: 100%;
     position: absolute;
     top: 57px;
+  }
+`;
+
+export const SearchContainer = styled.div`
+  position: relative;
+  height: 195px;
+  background: #f2f2f2;
+  border-radius: 53px 53px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 660px;
+`;
+
+export const InputSearchContainer = styled.div`
+  width: 920px;
+  background: #fafafa;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 25px 12px 45px;
+
+  input {
+    border: none;
+
+    ::placeholder {
+      color: #b0a8a8;
+    }
+  }
+
+  div {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background: #44f9bd;
+    box-shadow: 0px 4px 4px rgba(253, 51, 115, 0.2);
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 `;

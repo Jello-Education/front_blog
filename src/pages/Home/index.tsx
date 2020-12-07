@@ -9,9 +9,13 @@ import {
   Title,
   NavBar,
   Background,
+  SearchContainer,
+  InputSearchContainer,
 } from './styles';
 
 import logoJello from '../../assets/logoJello.png';
+import searchIcon from '../../assets/search-icon.svg';
+
 import NavLink from '../../components/NavLink';
 
 const Home: React.FC = () => {
@@ -36,6 +40,15 @@ const Home: React.FC = () => {
         <div />
         <img src={homeBackgroundImage} alt="Imagem de fundo da Home" />
       </Background>
+
+      <SearchContainer>
+        <InputSearchContainer>
+          <input placeholder="O que você deseja buscar?" />
+          <div>
+            <img src={searchIcon} alt="Ícone de pesquisa" />
+          </div>
+        </InputSearchContainer>
+      </SearchContainer>
     </Container>
   );
 };
