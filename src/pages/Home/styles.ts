@@ -76,6 +76,7 @@ export const SearchContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 14px;
 `;
 
 export const InputSearchContainer = styled.div`
@@ -107,5 +108,60 @@ export const InputSearchContainer = styled.div`
     display: flex;
     justify-content: center;
     align-content: center;
+  }
+`;
+
+export const PostsContainer = styled.section`
+  padding-right: 24px;
+  padding-left: 24px;
+  width: 100%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 24px;
+`;
+
+export const PagesNavContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  padding-top: 68px;
+  padding-bottom: 77px;
+
+  .selected-page {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fd3373;
+  }
+
+  span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #282828;
+  }
+
+  .next-page {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #fd3373;
+    margin-left: 17px;
+  }
+
+  .last-page {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #fd3373;
+    margin-left: 7px;
+    align-items: center;
   }
 `;
