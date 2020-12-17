@@ -8,10 +8,6 @@ import homeBackgroundImage from '../../assets/homeBackgroundImage.png';
 
 import {
   Container,
-  Header,
-  HeaderContent,
-  Title,
-  NavBar,
   Background,
   SearchContainer,
   InputSearchContainer,
@@ -19,11 +15,9 @@ import {
   PagesNavContainer,
 } from './styles';
 
-import logoJello from '../../assets/logoJello.png';
 import searchIcon from '../../assets/search-icon.svg';
 
 import Post from '../../components/Post';
-import NavLink from '../../components/NavLink';
 
 interface IPost {
   id: number;
@@ -49,21 +43,6 @@ const Home: React.FC = () => {
 
   return (
     <Container>
-      <Header>
-        <HeaderContent>
-          <Title>
-            <img src={logoJello} alt="Logo da Jello" />
-            <h1> | Blog</h1>
-          </Title>
-
-          <NavBar>
-            <NavLink>Sobre</NavLink>
-            <NavLink>Conteúdo</NavLink>
-            <NavLink>Em breve!</NavLink>
-          </NavBar>
-        </HeaderContent>
-      </Header>
-
       <Background>
         <div />
         <img src={homeBackgroundImage} alt="Imagem de fundo da Home" />

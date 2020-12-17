@@ -6,45 +6,6 @@ export const Container = styled.div`
   height: 100vh;
 `;
 
-export const Header = styled.header`
-  position: fixed;
-  width: 100%;
-  padding: 8px 0;
-  background: #fafafa;
-  border-radius: 0 0 20px 20px;
-`;
-
-export const HeaderContent = styled.div`
-  max-width: 1120px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-`;
-
-export const Title = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: 83px;
-
-  img {
-    margin-left: 10px;
-    margin-right: 11px;
-  }
-
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    color: #282828;
-  }
-`;
-
-export const NavBar = styled.div`
-  display: flex;
-  align-items: center;
-  margin-top: 18px;
-`;
-
 export const Background = styled.div`
   position: relative;
   top: 57px;
