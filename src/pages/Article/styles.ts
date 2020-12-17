@@ -2,19 +2,17 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: 80px;
-  height: 100vh;
   width: 100%;
   background: #e5e5e5;
   text-align: left;
   padding: 0 24px;
 
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 `;
 
 export const Main = styled.div`
   width: 1038px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,6 +44,7 @@ export const Profile = styled.div`
   justify-content: space-between;
   padding-bottom: 52px;
   border-bottom: 2px solid #fd3373;
+  margin-bottom: 54px;
 `;
 
 export const User = styled.div`
@@ -70,9 +69,25 @@ export const Icon = styled.div`
   height: 42px;
   width: 42px;
   border-radius: 50%;
+  margin-left: 5px;
   background: #FD98B8;
 
   display: flex;
   align-items: center;
   justify-content: center;
 `;
+
+export const Content = styled.div`
+
+`;
+
+export const BlogImage = styled.div`
+  margin-bottom: 73px;
+`;
+
+export const BlogContent = styled.div`
+  width: 100%;
+  height: 1232px;
+  background: rgba(126, 126, 126, 0.5);
+  border-bottom: 2px solid #fd3373;
+`;  

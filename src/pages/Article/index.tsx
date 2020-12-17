@@ -7,12 +7,17 @@ import {
   Profile, 
   User, 
   Icons,
-  Icon
+  Icon,
+  Content,
+  BlogImage,
+  BlogContent
 } from './styles';
 
-import { FaWhatsapp, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter  } from "react-icons/fa";
+import { FaWhatsapp, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FiShare2 } from 'react-icons/fi'
 
 import userFoto from '../../assets/userFoto.svg';
+import blogImg from '../../assets/imgBlogExample.svg';
 
 const Article: React.FC = () => {
   return (
@@ -30,6 +35,8 @@ const Article: React.FC = () => {
             <p>Por <b>Fulano de Tal</b></p>
           </User>
           <Icons>
+            <FiShare2 color="#FD98B8" size={40}/>
+            
             <Icon>
               <FaWhatsapp color="#fff" size={25}/>
             </Icon>
@@ -52,6 +59,13 @@ const Article: React.FC = () => {
             
           </Icons>
         </Profile>
+        <Content>
+          <BlogImage>
+            <img src={blogImg} alt="blogImg"/>
+            <p>Fonte da imagem</p>
+          </BlogImage>
+          <BlogContent />
+        </Content>
       </Main>
     </Container>
   );
