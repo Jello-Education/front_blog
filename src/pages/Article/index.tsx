@@ -1,72 +1,34 @@
 import React from 'react';
 
-import { 
-  Container,
-  Main, 
-  Titles, 
-  Profile, 
-  User, 
-  Icons,
-  Icon,
-  Content,
-  BlogImage,
-  BlogContent
-} from './styles';
+import { Container, Main, Titles, Section } from './styles';
 
-import { FaWhatsapp, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import { FiShare2 } from 'react-icons/fi'
-
-import userFoto from '../../assets/userFoto.svg';
-import blogImg from '../../assets/imgBlogExample.svg';
+import Profile from './Components/Profile';
+import Content from './Components/Content';
+import Aside from './Components/Aside';
+import Footer from './Components/Footer';
 
 const Article: React.FC = () => {
   return (
     <Container>
-      <Main>
-        <Titles>
-          <p>Tipo de conteúdo (categoria)</p>
+      <Section>
+        <Main>
+          <Titles>
+            <p>Tipo de conteúdo (categoria)</p>
 
-          <h1>Titulo título título título</h1>
-          <sub>Subtitulo Subtitulo</sub>
-        </Titles>
-        <Profile>
-          <User>
-            <img src={userFoto} alt="userFoto"/>
-            <p>Por <b>Fulano de Tal</b></p>
-          </User>
-          <Icons>
-            <FiShare2 color="#FD98B8" size={40}/>
-            
-            <Icon>
-              <FaWhatsapp color="#fff" size={25}/>
-            </Icon>
+            <h1>Titulo título título título</h1>
+            <sub>Subtitulo Subtitulo</sub>
+          </Titles>
 
-            <Icon>
-              <FaFacebookF color="#fff" size={25}/>
-            </Icon>
+          <Profile />
 
-            <Icon>
-              <FaInstagram color="#fff" size={25}/>
-            </Icon>
+          <Content />
 
-            <Icon>
-              <FaLinkedinIn color="#fff" size={25}/>
-            </Icon>
+        </Main>
+        
+        <Aside />
+      </Section>
 
-            <Icon>
-              <FaTwitter color="#fff" size={25}/>
-            </Icon>
-            
-          </Icons>
-        </Profile>
-        <Content>
-          <BlogImage>
-            <img src={blogImg} alt="blogImg"/>
-            <p>Fonte da imagem</p>
-          </BlogImage>
-          <BlogContent />
-        </Content>
-      </Main>
+      <Footer />
     </Container>
   );
 };
