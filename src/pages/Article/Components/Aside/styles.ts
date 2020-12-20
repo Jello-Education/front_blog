@@ -42,6 +42,11 @@ export const Container = styled.div`
       color: #fff;
       border-radius: 10px;
       border: 0;
+      transition: opacity 0.3s;
+
+      &:hover{
+        opacity: 0.8;
+      }
     }
   }
 `;
