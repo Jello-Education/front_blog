@@ -15,7 +15,7 @@ export const Texts = styled.div`
   text-align: left;
   color: #fff;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 30px;
 
 
   h1{
@@ -27,10 +27,8 @@ export const Texts = styled.div`
   
 `;
 
-export const Form = styled.div`
-  width: 80%;
+export const Form = styled.div` 
   display: flex;
-  justify-content: space-between;
 
   p{
     width: 556px;
@@ -43,6 +41,7 @@ export const Form = styled.div`
   }
 
   form{
+    margin-left: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,12 +52,14 @@ export const Form = styled.div`
       padding: 0 20px;
       margin-bottom: 12px;
       background: #FAFAFA;
-      border-radius: 25px; 
+      border-radius: 25px;
+      font-size: 24px; 
       border: 0;
     }
 
     button{
       width: 448px;
+      font-size: 24px;
       height: 60px;
       background: #FD3373;
       color: #fff;
