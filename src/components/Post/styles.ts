@@ -58,6 +58,7 @@ export const BottomContainer = styled.div`
 
   div {
     margin-right: 11px;
+    margin-left: 16px;
 
     img {
       width: 52px;

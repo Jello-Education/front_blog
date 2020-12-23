@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+import InputComponent from '../../components/InputComponent';
+import ButtonComponent from '../../components/ButtonComponent';
+
 export const Container = styled.div`
   position: relative;
   display: block;
@@ -163,5 +166,238 @@ export const PagesNavContainer = styled.div`
     background: #fd3373;
     margin-left: 7px;
     align-items: center;
+  }
+`;
+
+export const SignNewsletterContainer = styled.div`
+  border-bottom: 2px solid;
+  border-color: #fd3373;
+
+  .newsletter-section {
+    display: flex;
+    width: 100%;
+    height: 541px;
+    background: #f2f2f2;
+
+    .newsletter-container {
+      display: flex;
+      width: 100%;
+      height: 354px;
+      background: #fd98b8;
+      border-radius: 20px;
+
+      img {
+        margin-left: 24px;
+      }
+
+      .newsletter-right-side {
+        display: block;
+        width: 100%;
+        margin-left: 24px;
+        margin-top: 21px;
+        margin-right: 24px;
+
+        .newsletter-top {
+          margin-bottom: 15px;
+
+          span {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 36px;
+            color: #fafafa;
+          }
+        }
+
+        .newsletter-bottom {
+          display: flex;
+
+          p {
+            width: 566px;
+            padding-top: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 24px;
+            color: #fafafa;
+
+            span {
+              font-family: 'Poppins', sans-serif;
+              font-weight: 500;
+              font-size: 24px;
+              color: #fd3373;
+            }
+          }
+
+          .forms {
+            height: 200px;
+            width: 40%;
+          }
+        }
+      }
+    }
+  }
+`;
+
+export const Input = styled(InputComponent)``;
+
+export const Button = styled(ButtonComponent)`
+  width: 100%;
+`;
+
+export const JelloInfoContainer = styled.div`
+  padding: 49px 25px 0px 23px;
+  border-bottom: 2px solid;
+  border-color: #fd3373;
+
+  font-family: 'Montserrat', sans-serif;
+  color: #282828;
+
+  .jello-info-top {
+    display: flex;
+    justify-content: space-between;
+
+    .jello-info-left,
+    .jello-info-center,
+    .jello-info-right {
+      span {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 46px;
+      }
+
+      a {
+        font-size: 24px;
+        line-height: 46px;
+        color: #282828;
+      }
+    }
+
+    .jello-info-center {
+      text-align: center;
+    }
+
+    .jello-info-right {
+      text-align: end;
+    }
+  }
+
+  .jello-info-bottom {
+    display: flex;
+
+    span {
+      font-family: 'Montserrat', sans-serif;
+      color: #282828;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 46px;
+    }
+
+    .jello-social-network {
+      width: 400px;
+
+      img {
+        margin-right: 16px;
+        margin-bottom: 16px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    .jello-contact {
+      display: flex;
+      align-items: center;
+      align-self: center;
+      padding: 35px 28px;
+      margin-right: 26px;
+      border: 3px solid #fd3373;
+      border-radius: 15px;
+      width: 447px;
+      height: 116px;
+
+      img {
+        margin-right: 44px;
+      }
+
+      div {
+        align-self: center;
+
+        p {
+          font-family: 'Montserrat', sans-serif;
+          color: #282828;
+          font-size: 24px;
+        }
+      }
+    }
+
+    .jello-companies {
+      display: flex;
+      align-items: center;
+      align-self: center;
+      padding: 35px 0px;
+      border: 3px solid #fd3373;
+      border-radius: 15px;
+      width: 447px;
+      height: 116px;
+
+      img {
+        margin-right: 18px;
+      }
+
+      div {
+        align-self: center;
+
+        p {
+          font-family: 'Montserrat', sans-serif;
+          color: #282828;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+`;
+
+export const JelloRightsReserved = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 21px;
+
+  span {
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+    font-size: 24px;
+    margin-bottom: 204px;
+  }
+`;
+
+export const Footer = styled.footer`
+  padding: 18px 24px;
+  background: #f2f2f2;
+  border-radius: 53px 53px 0px 0px;
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    span {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      color: #282828;
+    }
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-bottom-inputs {
+      display: flex;
+      width: 84%;
+    }
+
+    .footer-bottom-button {
+      display: flex;
+      width: 16%;
+    }
   }
 `;
