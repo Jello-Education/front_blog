@@ -6,6 +6,7 @@ export const JelloInfoContainer = styled.div`
   padding: 49px 25px 0px 23px;
   border-bottom: 2px solid;
   border-color: #fd3373;
+  background: #fafafa;
 
   font-family: 'Montserrat', sans-serif;
   color: #282828;

@@ -5,6 +5,7 @@ export const Container = styled.header`
   width: 100%;
   padding: 8px 0;
   background: #fafafa;
+  border: 0.75px solid #e5e5e5;
   border-radius: 0 0 20px 20px;
 `;
 

@@ -91,6 +91,7 @@ export const PagesNavContainer = styled.div`
   justify-content: center;
   padding-top: 68px;
   padding-bottom: 77px;
+  background: #fafafa;
 
   .selected-page {
     font-family: 'Poppins', sans-serif;
