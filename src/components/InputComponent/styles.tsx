@@ -26,6 +26,7 @@ export const Container = styled.div`
       font-size: 24px;
       color: #b0a8a8;
       overflow: visible;
+      background: #fafafa;
     }
   }
 `;
