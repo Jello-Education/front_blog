@@ -46,12 +46,12 @@ json-server --watch server.json --port 3333
 
 ### :feet: Próximos passos
 
-Tarefas / funcionalidades a fazer ou desenvolver
+Tarefas / funcionalidades a fazer ou desenvolver:
 
 - Animações na página inicial conforme layout desenhado;
-- Correção em relação ao placeholder do componente `Input`;
+- <s>Correção em relação ao placeholder do componente `Input`</s> :heavy_check_mark:;
 - Página de conteúdo do post após ser selecionado;
-- Página "Sobre a Jello".
+- <s>Página "Sobre a Jello"</s> :heavy_check_mark:.
 
 
 ### :wrench: Tecnologias | Ferramentas | Recursos
