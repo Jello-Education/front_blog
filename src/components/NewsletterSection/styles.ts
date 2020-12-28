@@ -63,7 +63,7 @@ export const Container = styled.div`
 
           .forms {
             height: 200px;
-            width: 40%;
+            width: 32%;
           }
         }
       }

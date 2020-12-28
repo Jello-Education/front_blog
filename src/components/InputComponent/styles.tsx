@@ -19,14 +19,14 @@ export const Container = styled.div`
   input {
     flex: 1;
     border: 0;
+    background: transparent;
 
     &::placeholder {
       font-family: 'Montserrat', sans-serif;
       font-weight: 500;
-      font-size: 24px;
+      font-size: 16px;
       color: #b0a8a8;
       overflow: visible;
-      background: #fafafa;
     }
   }
 `;

@@ -1,12 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container } from './styles';
 
-const NavLink: React.FC = ({ children }) => {
+interface NavLinkProps {
+  to: string;
+}
+
+const NavLink: React.FC<NavLinkProps> = ({ children, to }) => {
   return (
     <Container>
-      <h2>{children}</h2>
-      <div />
+      <Link to={to}>
+        {children}
+        {/* <h2></h2> */}
+        <div />
+      </Link>
     </Container>
   );
 };
