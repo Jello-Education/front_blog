@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-import InputComponent from '../components/InputComponent';
-import ButtonComponent from '../components/ButtonComponent';
+import InputComponent from '../components/Shared/InputComponent';
+import ButtonComponent from '../components/Shared/ButtonComponent';
 
 export const Container = styled.div`
   position: relative;
