@@ -17,5 +17,11 @@ export default createGlobalStyle`
 
 	body{
 		background: #f5f5f5;
+		font-family: "Monserrat"
 	}
+
+	ul{
+		list-style: none;
+	}
+
 `;

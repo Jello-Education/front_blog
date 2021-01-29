@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-import Header from '../../components/Header';
-import JelloInfo from '../../components/JelloInfo';
+import Header from '../../components/Shared/Header';
+import JelloInfo from '../../components/Shared/JelloInfo';
 
 import {
   Container,

@@ -44,8 +44,6 @@ export const Courses = styled.div`
   display: block;
   margin-top: 40px;
 
-  border-bottom: 2px solid #fd3373;
-
   .first-description {
     width: 100%;
     display: flex;

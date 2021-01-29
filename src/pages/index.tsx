@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 import api from '../services/api';
 
-import Header from '../components/Header';
-import Post from '../components/Post';
-import NewsletterSection from '../components/NewsletterSection';
-import JelloInfo from '../components/JelloInfo';
+import Header from '../components/Shared/Header';
+import Post from '../components/Home/Post';
+import NewsletterSection from '../components/Shared/NewsletterSection';
+import JelloInfo from '../components/Shared/JelloInfo';
 
 import {
   Container,

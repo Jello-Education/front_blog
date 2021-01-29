@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 
 
-import Header from '../../components/Header';
-import NewsletterSection from '../../components/NewsletterSection';
-import JelloInfo from '../../components/JelloInfo';
+import Header from '../../components/Shared/Header';
+import NewsletterSection from '../../components/Shared/NewsletterSection';
+import JelloInfo from '../../components/Shared/JelloInfo';
 
 import { Container, ComingSoonContainer } from '../../styles/comingStyles';
 
