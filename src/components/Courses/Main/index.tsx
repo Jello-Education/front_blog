@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 import { Container, Title, Cards, Card, Bottom, Stars } from './stlyes';
-import { FiStar } from 'react-icons/fi';
+import { FaStar } from 'react-icons/fa';
 
 const Main: React.FC = () => {
   return (
@@ -22,12 +22,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
@@ -46,12 +46,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
@@ -70,12 +70,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
@@ -94,12 +94,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
@@ -118,12 +118,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
@@ -142,12 +142,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
@@ -166,12 +166,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
@@ -190,12 +190,12 @@ const Main: React.FC = () => {
             <h3>Excel 2016 basico</h3>
             <nav>
               <Stars> 
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
-                <FiStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
+                <FaStar color="#FD3373"/>
                 <small>5.0</small>
               </Stars>
               <span>Categorias</span>
