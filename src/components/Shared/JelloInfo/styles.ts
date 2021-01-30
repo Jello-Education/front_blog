@@ -120,6 +120,6 @@ export const Bottom = styled.div`
   justify-content: center;
 
   span{
-    font-size: 20px;
+    font-size: 18px;
   }
 `;

@@ -9,6 +9,7 @@ export const Container = styled.div`
 export const Title = styled.div`
   display: flex;
   align-items: baseline;
+  margin-bottom: 10px;
 
   h1{
 
@@ -31,7 +32,7 @@ export const Cards = styled.div`
   align-items: center;
 `;
 
-export const Card = styled.div`
+export const Card = styled.button`
   width: 328px;
   height: 403px;
   border-radius: 10px;
@@ -43,8 +44,15 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
 
+  transition: all 0.3s;
+
   img{
     margin-bottom: 10px;
+  }
+
+  &:hover{
+    transform: scale(1.1);
+    border-color: #FD3373;
   }
 `;
 
@@ -63,11 +71,12 @@ export const Bottom = styled.div`
 
     small{
       margin-left: 5px;
-      margin-top: 3px;
+      margin-top: 2px;
     }
   }
 
   b{
+    margin-bottom: -10px;
     color: #025FCD;
   }
 `;
@@ -75,5 +84,5 @@ export const Bottom = styled.div`
 export const Stars = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 `;

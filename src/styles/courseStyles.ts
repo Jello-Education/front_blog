@@ -69,7 +69,7 @@ export const Categories = styled.div`
   align-items: center;
 `;
 
-export const Categorie = styled.div`
+export const Categorie = styled.button`
   width: 212px;
   height: 123px;
   background: #fff;
@@ -84,7 +84,14 @@ export const Categorie = styled.div`
   align-items: center;
   justify-content: center;
 
+  transition: all 0.3s;
+
   &:last-child{
     margin-right: 0px;
+  }
+
+  &:hover{
+    border-color: #FD3373;
+    color: #FD3373;
   }
 `;
