@@ -4,6 +4,8 @@ import { Container, Section, Top, Texts, Input, Icon, Categories, Categorie } fr
 import { FiSearch } from 'react-icons/fi';
 
 import Header from '../../components/Shared/Header';
+import Main from '../../components/Courses/Main';
+import Footer from '../../components/Shared/JelloInfo';
 
 const courses: React.FC = () => {
   return (
@@ -49,6 +51,9 @@ const courses: React.FC = () => {
             </Categorie>
           </Categories>
         </Top> 
+        <Main />
+
+        <Footer />
     </Container>
   );
 }
