@@ -83,6 +83,13 @@ export const Buttons = styled.div`
 
     font-size: 20px;
     font-weight: normal !important;
+
+    transition: all 0.3s;
+
+    &:hover{
+      border-color: transparent;
+      background: #fd3373;
+    }
   }
 
   img{

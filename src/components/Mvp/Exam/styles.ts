@@ -51,9 +51,14 @@ export const Container = styled.div`
       font-size: 22px;
       border-radius: 20px;
       border: 0;
+      transition: all 0.3s;
 
       @media (max-width: 1170px) {
         align-self: center;
+      }
+
+      &:hover{
+        opacity: 0.8;
       }
     }
   

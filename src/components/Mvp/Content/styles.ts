@@ -43,5 +43,10 @@ export const Box = styled.div`
     border: 0;
     margin-top: 30px;
     font-size: 18px;
+    transition: all 0.3s;
+
+    &:hover{
+        opacity: 0.8;
+      }
   }
 `;
