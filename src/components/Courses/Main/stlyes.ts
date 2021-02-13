@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 1440px;
+  width: 75%;
   margin: auto;
   margin-top: 50px;
 `;
@@ -30,6 +30,14 @@ export const Cards = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+
+  @media (max-width: 1400px){
+    justify-content: center;
+
+    > button{
+      margin-right: 10px;
+    }
+  }
 `;
 
 export const Card = styled.button`

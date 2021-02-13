@@ -11,7 +11,7 @@ const Cards: React.FC = () => {
         title="Decole sua carreira"
         text="Lorem ipsum nam euismod lobortis sagittis porta quisque, donec eleifend cursus platea quisque accumsan, elit cursus metus sodales libero conubia. sem nec aliquam hac blandit eros ac mi aliquam"
         image={{
-          src: "/landingCardRocketIcon",
+          src: "/landing-card-rocket-icon.svg",
           altImg: 'icone foguete',
         }}
       />
@@ -19,7 +19,7 @@ const Cards: React.FC = () => {
         title="Decole sua carreira"
         text="Lorem ipsum nam euismod lobortis sagittis porta quisque, donec eleifend cursus platea quisque accumsan, elit cursus metus sodales libero conubia. sem nec aliquam hac blandit eros ac mi aliquam"
         image={{
-          src: "/landingCardRocketIcon",
+          src: "/landing-card-rocket-icon.svg",
           altImg: 'icone foguete',
         }}
       />
@@ -27,7 +27,7 @@ const Cards: React.FC = () => {
         title="Decole sua carreira"
         text="Lorem ipsum nam euismod lobortis sagittis porta quisque, donec eleifend cursus platea quisque accumsan, elit cursus metus sodales libero conubia. sem nec aliquam hac blandit eros ac mi aliquam"
         image={{
-          src: "/landingCardRocketIcon",
+          src: "/landing-card-rocket-icon.svg",
           altImg: 'icone foguete',
         }}
       />
@@ -35,7 +35,7 @@ const Cards: React.FC = () => {
         title="Decole sua carreira"
         text="Lorem ipsum nam euismod lobortis sagittis porta quisque, donec eleifend cursus platea quisque accumsan, elit cursus metus sodales libero conubia. sem nec aliquam hac blandit eros ac mi aliquam"
         image={{
-          src: "/landingCardRocketIcon",
+          src: "/landing-card-rocket-icon.svg",
           altImg: 'icone foguete',
         }}
       />

@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
 
   padding: 32px 16px;
-
+  cursor: pointer;
   border-radius: 8px;
   text-align: center;
 
