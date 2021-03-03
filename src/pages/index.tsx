@@ -7,6 +7,7 @@ import Header from '../components/Shared/Header';
 import Post from '../components/Home/Post';
 import NewsletterSection from '../components/Shared/NewsletterSection';
 import JelloInfo from '../components/Shared/JelloInfo';
+import SEO from '../components/Seo';
 
 import {
   Container,
@@ -19,6 +20,7 @@ import {
   Input,
   Button,
 } from '../styles/homeStyles';
+
 
 interface IPost {
   id: number;
@@ -45,6 +47,8 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Header />
+
+      <SEO title="Home" image="logoJelloShort.svg" />
 
       <Background>
         <div />
