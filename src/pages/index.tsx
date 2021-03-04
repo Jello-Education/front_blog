@@ -48,7 +48,7 @@ const Home: React.FC = () => {
     <Container>
       <Header />
 
-      <SEO title="Home" image="logoJelloShort.svg" />
+      <SEO title="Home" />
 
       <Background>
         <div />

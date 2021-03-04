@@ -3,7 +3,6 @@ import Head from 'next/head'
 interface SEOProps {
   title: string;
   description?: string;
-  image?: string;
   shouldExcludeTitleSuffix?: boolean;
   shouldIndexPage?: boolean;
 }
@@ -11,19 +10,17 @@ interface SEOProps {
 export default function SEO({
   title,
   description,
-  image,
   shouldExcludeTitleSuffix = false,
   shouldIndexPage = true
 } : SEOProps){
-  const pageTitle = `${title} ${!shouldExcludeTitleSuffix ? "| DevCommerce" : ""}`
-  const pageImage = image ? `http://localhost:3000/${image}` : null
+  const pageTitle = `${title} ${!shouldExcludeTitleSuffix ? "| JELLO" : ""}`
 
   return (
     <Head>
       <title>{pageTitle}</title>
 
       { description && <meta  name="description" content={description}/> }
-      { pageImage && <meta  name="image" content={pageImage}/> }
+      <meta name="image" content={`http://localhost:3000/logoJello.png`}/> 
 
       { !shouldIndexPage && <meta name="robots" content="noindex,nofollow"/> }
     </Head>

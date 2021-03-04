@@ -12,11 +12,15 @@ import MobileAppSection from '../../components/Mvp/MobileAppSection';
 import JelloInfo from '../../components/Shared/JelloInfo';
 import Cards from '../../components/Mvp/Cards';
 import Content from '../../components/Mvp/Content';
+import SEO from '../../components/Seo';
 
 const Mvp: React.FC = () => {
   return (
     <Container>
       <Header />
+
+      <SEO title="MVP"/>
+
       <BackgroundImage>
         <h1><i><b>L</b>orem ipsum</i> dolor sit amet</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
