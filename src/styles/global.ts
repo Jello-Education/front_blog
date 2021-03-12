@@ -17,7 +17,11 @@ export default createGlobalStyle`
 
 	body{
 		background: #f5f5f5;
-		font-family: "Monserrat"
+		font-family: "Montserrat"
+	}
+
+	h1, h2, h3, h4, span, b {
+		font-family: "Montserrat"
 	}
 
 	ul{
