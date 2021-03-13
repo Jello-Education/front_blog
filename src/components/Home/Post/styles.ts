@@ -23,13 +23,15 @@ export const TopContainer = styled.div`
 `;
 
 export const ImageContainer = styled.div`
+  position: relative;
   height: 254px;
   margin-bottom: 17px;
 
   .jelloSymbol {
     position: absolute;
-    margin-left: 16px;
-    bottom: -50px;
+    z-index: 999;
+    left: 10px;
+    bottom: 10px;
   }
 
   .postImage {

@@ -37,12 +37,10 @@ const Post: React.FC<IProps> = ({ post }: IProps) => {
           alt="Imagem da postagem" 
           className="postImage" 
         />
-        <Image
+        <img
           src="/logoJelloSymbol.png" 
           alt="Símbolo do Jello"
           className="jelloSymbol"
-          width={60}
-          height={57}
         />
       </ImageContainer>
 
