@@ -20,4 +20,9 @@ export const Top  = styled.div`
 export const Main = styled.div`
   display: flex;
   justify-content: center;
+
+  @media (max-width: 1270px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;

@@ -1,11 +1,16 @@
 import React from 'react';
 
-import { Container, User, InfoBoxes } from './styles';
+import { Container, User, InfoBoxes, Icon } from './styles';
+import { FiEdit2 } from 'react-icons/fi';
 
 const Aside: React.FC = () => {
   return (
     <Container>
       <User>
+        <Icon>
+          <FiEdit2 color="#fff" size={20}/>
+        </Icon>
+
         <img src="/profile-User-Img.png" alt="userImg"/>
 
         <h3>João Henrique</h3>
