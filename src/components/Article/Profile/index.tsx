@@ -12,8 +12,8 @@ const Profile: React.FC = () => {
         <Image 
           src="/userFoto.svg" 
           alt="userFoto"
-          width={30}
-          height={30}
+          width={50}
+          height={50}
           />
             <p>Por <b>Fulano de Tal</b></p>
       </User>

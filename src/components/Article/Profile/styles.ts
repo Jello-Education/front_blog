@@ -23,12 +23,9 @@ export const User  = styled.div`
     margin-right: 40px;
   }
 
-  img{
-    margin-right: 13px;
-  }
-
   p{
     font-size: 24px;
+    margin-left: 10px;
   }
 `;
 
