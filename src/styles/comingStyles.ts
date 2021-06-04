@@ -12,7 +12,10 @@ export const ComingSoonContainer = styled.div`
   flex-direction: column;
   align-items: center;
 
-
+  img {
+    width: 980px;
+    height: 1080px;
+  }
 
   h2 {
     display: flex;

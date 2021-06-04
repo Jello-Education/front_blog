@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-
 
 import Header from '../../components/Shared/Header';
 import NewsletterSection from '../../components/Shared/NewsletterSection';
@@ -18,11 +16,9 @@ const Coming: React.FC = () => {
       <SEO title="Em breve"/>
 
       <ComingSoonContainer>
-        <Image 
-          src="/coming-page-image.svg" 
+        <img
+          src="/em-breve.png" 
           alt="Imagem ilustrativa para 'Em breve'" 
-          width={756}
-          height={520}
           />
 
         <h2>Em breve...</h2>
