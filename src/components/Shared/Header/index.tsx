@@ -4,6 +4,7 @@ import Image from 'next/image';
 import NavLink from '../NavLink';
 
 import { Container, HeaderContent, Title, NavBar } from './styles';
+import Link from 'next/link';
 
 const Header: React.FC = () => {  
 
@@ -11,13 +12,14 @@ const Header: React.FC = () => {
     <Container>
       <HeaderContent>
         <Title >
-          <Image 
-            src="/logoJello.png" 
-            alt="Logo da Jello" 
-            width={150}
-            height={44}
-            />
-          <h1> | Blog</h1>
+          <Link href="/">
+            <Image 
+              src="/novo-logo-jello.svg" 
+              alt="Logo da Jello" 
+              width={150}
+              height={44}
+              />
+          </Link>
         </Title>
 
         <NavBar>
