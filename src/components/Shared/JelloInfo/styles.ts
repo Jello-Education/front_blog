@@ -79,7 +79,7 @@ export const Icon = styled.div`
   width: 60px;
   margin-right: 20px;
   margin-bottom: 10px; 
-  background-color: #fd98b8;
+  background-color: #FD3373;
   border-radius: 50%;
   display: flex;
   align-items: center;
