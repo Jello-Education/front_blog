@@ -7,7 +7,6 @@ import Courses from '../../components/About/Courses';
 
 import {
   Container,
-  AboutJelloContainer,
   AboutJelloDetails,
 } from '../../styles/aboutStyles';
 
@@ -19,12 +18,10 @@ const AboutJello: React.FC = () => {
 
       <SEO title="Sobre"/>
 
-      <AboutJelloContainer>
-        <AboutJelloDetails>
-          <h1>Sobre a Jello</h1>
-          <h3>Saiba mais sobre a melhor plataforma de educação do Brasil</h3>
-        </AboutJelloDetails>
-      </AboutJelloContainer>
+      <AboutJelloDetails>
+        <img src="/about-banner.svg" alt="banner"/>
+      </AboutJelloDetails>
+
 
       <Courses />
 

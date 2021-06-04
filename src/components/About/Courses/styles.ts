@@ -47,7 +47,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 697px;
+    margin-bottom: 74px;
 
     .courses-left-second-description {
       width: 687px;
@@ -59,7 +59,9 @@ export const Container = styled.div`
     }
 
     .courses-right-second-description {
-      text-align: end;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
 
       h2 {
         font-family: 'Montserrat', sans-serif;
@@ -75,6 +77,7 @@ export const Container = styled.div`
         font-weight: 400;
         font-size: 24px;
         color: #282828;
+        align-self: flex-end;
       }
     }
   }
