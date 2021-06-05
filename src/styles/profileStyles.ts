@@ -20,6 +20,7 @@ export const Top  = styled.div`
 export const Main = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: -170px;
 
   @media (max-width: 1270px) {
     flex-direction: column;

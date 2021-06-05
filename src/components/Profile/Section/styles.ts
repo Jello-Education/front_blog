@@ -3,6 +3,16 @@ import styled from 'styled-components';
 export const Container = styled.div`
   margin-left: 25px;
   margin-top: 30px;
+  z-index: 10;
+
+  h3 {
+    color: #535353;
+  }
+
+
+  span, p {
+    color: #A83056;
+  }
 `;
 
 export const Sobre = styled.div`
@@ -40,11 +50,7 @@ export const CursesBox = styled.div`
   height: 345px;
   border-radius: 10px;
   background: #fff;
-  padding: 22px 20px 0px 0px;
-
-  > h3{
-    margin-left: 25px;
-  }
+  padding: 22px 20px 0px 30px;
 `;
 
 export const CourseList = styled.div`
@@ -55,8 +61,7 @@ export const CourseList = styled.div`
   justify-content: space-between;
 
   span{
-    font-size: 14;
-    color: #FD3373;
+    font-size: 14px;
     margin-bottom: 30px;
   }
 
@@ -75,10 +80,13 @@ export const CourseBox = styled.div`
   height: 219px;
   border: 2px solid #f1f1f1;
   border-radius: 10px;
+  cursor: pointer;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  transition: all 0.2s;
 
   img{
     width: 100%;
@@ -87,5 +95,9 @@ export const CourseBox = styled.div`
 
   h3{
     margin-bottom: 15px;
+  }
+
+  &:hover{
+    border: 2px solid #FD3373;
   }
 `;

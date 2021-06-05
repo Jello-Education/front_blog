@@ -13,6 +13,15 @@ export const Container = styled.div`
     justify-content: space-around;
     align-items: center;
   }
+
+  h3 {
+    color: #535353;
+  }
+
+  span, p{
+    color: #A83056;
+    font-size: 14px;
+  }
 `;
   
 export const User = styled.div`
@@ -27,11 +36,6 @@ export const User = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-
-  span{
-    color: #282828;
-    font-size: 14px;
-  }
 `;
 
 export const Icon = styled.div`
