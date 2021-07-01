@@ -7,6 +7,7 @@ export const Container = styled.div`
 export const AboutJelloDetails = styled.div`
   img {
     width: 100%;
+    min-height: 370px;
     border-radius: 0;
   }
 `;

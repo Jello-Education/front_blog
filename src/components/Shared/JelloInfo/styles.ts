@@ -2,6 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: 183px;
+
+  a,b {
+    font-size: 1.5rem !important;
+  }
 `;
 
 export const Main = styled.div`
@@ -29,9 +33,6 @@ export const Content = styled.div`
       margin-bottom: 40px;
     }
   ul{
-    b{
-      font-size: 22px;
-    }
     &.middle{
       text-align: center;
     }
@@ -46,7 +47,6 @@ export const Content = styled.div`
       }
       a{
         color: #200;
-        font-size: 20px;
       }
     }
   }
@@ -71,6 +71,7 @@ export const SocialMediaContainer = styled.div`
   flex-wrap: wrap;
   @media (max-width:  1050px){
     margin-bottom: 40px;
+    justify-content: center;
   }
 `;
 
@@ -110,7 +111,7 @@ export const Texts = styled.div`
   margin-left: 30px;
   margin-right: 0;
   text-align: left;
-  font-size: 22px;
+  font-size: 1.5rem;
 `;
 
 export const Bottom = styled.div`

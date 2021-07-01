@@ -4,12 +4,45 @@ export const Container = styled.div`
   display: block;
   margin-top: 40px;
 
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p, h3 {
+    font-size: 1.3rem;
+  }
+
+  img {
+    width: 17rem;
+    height: 16rem;
+  }
+
+  @media(max-width: 600px) {
+    p, h3 {
+      width: 400px !important;
+    }
+  }
+
   .first-description {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 74px;
+
+    @media(max-width: 1100px) {
+      justify-content: center;
+      text-align: center;
+
+      img {
+        display: none;
+      }
+
+      .courses-left-first-description {
+        margin: 0!important;
+        padding: 0 !important;
+      }
+    }
 
     .courses-left-first-description {
       display: block;
@@ -19,7 +52,6 @@ export const Container = styled.div`
       h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 42px;
         color: #282828;
         margin-bottom: 26px;
       }
@@ -28,7 +60,6 @@ export const Container = styled.div`
         width: 635px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        font-size: 24px;
         color: #282828;
       }
     }
@@ -43,11 +74,21 @@ export const Container = styled.div`
   }
 
   .second-description {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 74px;
+
+    @media(max-width: 1100px) {
+      justify-content: center;
+      text-align: center;
+
+      img {
+        display: none;
+      }
+    }
 
     .courses-left-second-description {
       width: 687px;
@@ -63,10 +104,13 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
 
+      @media (max-width: 1100px) {
+        text-align: center;
+      }
+
       h2 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 42px;
         color: #282828;
         margin-bottom: 26px;
       }
@@ -75,7 +119,6 @@ export const Container = styled.div`
         width: 635px;
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
-        font-size: 24px;
         color: #282828;
         align-self: flex-end;
       }

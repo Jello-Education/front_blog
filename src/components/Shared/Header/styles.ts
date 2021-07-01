@@ -6,41 +6,45 @@ export const Container = styled.header`
   top: 0;
   height: 80px;
   width: 100%;
-  padding: 8px 0;
+  padding: 0 0.3rem;
   background: #fafafa;
   border: 0.75px solid #e5e5e5;
   border-radius: 0 0 20px 20px;
+
+  img {
+    margin-right: 7.8rem;
+    width: 8rem !important;
+    height: 3rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1000px) {
+    img {
+      margin-right: 3rem;
+    }
+
+    div {
+      div {
+        margin-left: 0;
+      }
+    }
+  }
 `;
 
 export const HeaderContent = styled.div`
-  max-width: 1120px;
+  height: 100%;
+  max-width: 1350px;
   margin: 0 auto;
   display: flex;
   align-items: center;
+  padding: 0 2rem;
 `;
 
-export const Title = styled.div`
-  display: flex;
-  align-items: center;
-  margin-right: 83px;
-  margin-top: 10px;
 
-  img {
-    margin-left: 10px;
-    margin-right: 11px;
-    margin-top: 10px;
-  }
-
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    color: #282828;
-  }
-`;
 
 export const NavBar = styled.div`
   display: flex;
   align-items: center;
-  margin-top: 18px;
+  margin-top: 0.5rem;
+  margin-left: 4rem;
 `;

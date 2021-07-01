@@ -1,9 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
 
 import NavLink from '../NavLink';
 
-import { Container, HeaderContent, Title, NavBar } from './styles';
+import { Container, HeaderContent, NavBar } from './styles';
 import Link from 'next/link';
 
 const Header: React.FC = () => {  
@@ -11,16 +10,13 @@ const Header: React.FC = () => {
   return (
     <Container>
       <HeaderContent>
-        <Title >
-          <Link href="/">
-            <Image 
-              src="/novo-logo-jello.svg" 
-              alt="Logo da Jello" 
-              width={150}
-              height={44}
-              />
-          </Link>
-        </Title>
+        <Link href="/">
+          <img
+            src="/novo-logo-jello.svg" 
+            alt="Logo da Jello" 
+            />
+        </Link>
+
 
         <NavBar>
           <NavLink to="/about">Sobre</NavLink>

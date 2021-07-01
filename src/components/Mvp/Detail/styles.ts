@@ -8,76 +8,56 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 6rem;
 
   @media (max-width: 1100px){
-    height: 400px;
+    justify-content: center;
+    
+    img {
+      display: none;
+    }
+
+    div {
+      text-align: center;
+    }
+  }
+
+  img {
+    height: 60rem;
+    width: 60rem;
   }
 `;
 
 export const Text = styled.div`
-  width: 750px;
   height: 140px;
+  width: 600px;
+  margin-top: 30px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
-  @media (max-width: 1170px){
-    text-align: center;
-    height: 170px;
-  }
+  align-self: flex-start;
+  text-align: right;
 
-  h1{
-    @media (max-width: 1170px){
-      font-size: 36px;    
-    }
-  }
 
-  line{
-    display: block;
-    height: 5px;
-    width: 40px;
-    background: #fd3373;
-
-    @media (max-width: 1170px){
-    margin-left: 125px;
-  }
+  h1 {
+    align-self: flex-start;
+    width: 100%;
+    font-size: 2.65rem;
   }
 
   p{
     font-weight: 100;
-    line-height: 40px;
+    line-height: 2rem;
+    margin-top: 20px;
+  }
 
-    @media (max-width: 1170px){
-      margin-top: 10px;
-      line-height: 30px;
-    }
-
-    a{
-      margin-left: 20px;
+  a {
+      font-size: 1.2rem;
+      margin-top: 20px;
       color: #fd3373;
-  }
-  }
+    }
 
 `;
 
 
-
-export const Aside = styled.aside`
-  position: relative;
-  top: -50px;
-  display: flex;
-  flex-direction: column;
-
-  img{
-    
-    @media (max-width: 1170px){
-      display: none;
-    }
-    
-    &:first-child{
-      transform: translateY(40px)
-    }
-  }
-
-`

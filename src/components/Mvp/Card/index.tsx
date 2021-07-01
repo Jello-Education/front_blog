@@ -4,7 +4,6 @@ import { Container } from './styles';
 
 interface ICardProps {
   title: string;
-  text: string;
 
   image: {
     src: string;
@@ -12,14 +11,11 @@ interface ICardProps {
   };
 }
 
-const Card: React.FC<ICardProps> = ({ image, title, text }) => {
+const Card: React.FC<ICardProps> = ({ image, title }) => {
   return (
     <Container>
       <img src={image.src} alt={image.altImg} />
-      <div>
-        <strong>{title}</strong>
-        <p>{text}</p>
-      </div>
+      <strong>{title}</strong>
     </Container>
   );
 };

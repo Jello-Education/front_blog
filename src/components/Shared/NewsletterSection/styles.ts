@@ -8,25 +8,38 @@ export const Container = styled.div`
   .newsletter-section {
     display: flex;
     width: 100%;
-    height: 341px;
+
+    @media(max-width: 1100px) {
+      padding: 0 10px;
+
+      img {
+        display: none;
+      }
+    }
 
     .newsletter-container {
       display: flex;
       width: 100%;
-      height: 354px;
+      padding: 30px;
+
       background: #fd98b8;
       border-radius: 20px;
 
       img {
-        margin-left: 24px;
+        margin-left: 2rem;
+        height: 15rem;
+        width: 15rem;
       }
 
       .newsletter-right-side {
         display: block;
         width: 100%;
         margin-left: 24px;
-        margin-top: 21px;
         margin-right: 24px;
+
+        @media (max-width: 1100px) {
+          margin: 0;
+        }
 
         .newsletter-top {
           margin-bottom: 15px;
@@ -34,7 +47,7 @@ export const Container = styled.div`
           span {
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
-            font-size: 36px;
+            font-size: 2.2rem;
             color: #fafafa;
           }
         }
@@ -42,18 +55,26 @@ export const Container = styled.div`
         .newsletter-bottom {
           display: flex;
 
+          @media (max-width: 1100px) {
+            flex-direction: column;
+
+            .forms {
+              margin-top: 20px;
+            }
+          }
+
           p {
-            width: 566px;
+            width: 100%;
             padding-top: 20px;
             font-family: 'Poppins', sans-serif;
             font-weight: 500;
-            font-size: 24px;
+            font-size: 1.3rem;
             color: #fafafa;
 
             span {
               font-family: 'Poppins', sans-serif;
               font-weight: 500;
-              font-size: 24px;
+              font-size: 1.3rem;
               color: #fd3373;
             }
           }

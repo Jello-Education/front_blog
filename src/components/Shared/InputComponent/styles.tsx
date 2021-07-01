@@ -3,8 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex: 1;
-  width: 100%;
-  height: 64px;
+  width: 34rem;
+  height: 4rem;
 
   margin-bottom: 12px;
   margin-right: 24px;
@@ -24,7 +24,7 @@ export const Container = styled.div`
     &::placeholder {
       font-family: 'Montserrat', sans-serif;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 1rem;
       color: #b0a8a8;
       overflow: visible;
     }

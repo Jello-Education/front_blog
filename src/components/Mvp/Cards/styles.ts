@@ -1,20 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  padding: 0 128px 254px;
-
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 60px;
+  background: #fff;
+  border-radius: 25px;
+  width: 85%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 
   position: relative;
 
-  > img {
-    position: absolute;
-    bottom: 32px;
-    left: 64px;
-  }
-
-  @media (max-width: 1170px) {
-    grid-template-columns: 50% 50%;
-  }
 `;

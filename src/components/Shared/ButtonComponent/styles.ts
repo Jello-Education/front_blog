@@ -4,8 +4,8 @@ import { shade } from 'polished';
 export const Container = styled.button`
   display: flex;
   flex: 1;
-  width: 100%;
-  height: 60px;
+  width: 34rem;
+  height: 4rem;
 
   background: #fd3373;
   border-radius: 20px;

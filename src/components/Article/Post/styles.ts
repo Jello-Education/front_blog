@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 308px;
   background: #f2f2f2;
   border-radius: 10px; 
-  margin: 0 40px;
+  margin: 10px 40px;
 
   header{
     display: flex;

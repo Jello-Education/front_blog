@@ -16,7 +16,7 @@ export default createGlobalStyle`
 	}
 
 	body{
-		background: #f5f5f5;
+		background: #fdfdfd;
 		font-family: "Montserrat"
 	}
 
@@ -27,5 +27,23 @@ export default createGlobalStyle`
 	ul{
 		list-style: none;
 	}
+
+	@media (max-width: 1080px){
+		html{
+			font-size: 90.75%;
+		}
+	}
+
+@media (max-width: 720px){
+  html{
+    font-size: 85.5%;
+  	}
+	}
+
+@media (max-width: 650px){
+  html{
+    font-size: 65.5%;
+  }
+}
 
 `;

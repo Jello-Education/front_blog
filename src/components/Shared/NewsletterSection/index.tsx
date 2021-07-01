@@ -9,11 +9,9 @@ const NewsletterSection: React.FC = () => {
     <Container>
       <div className="newsletter-section">
         <div className="newsletter-container">
-          <Image 
+          <img 
             src="/mail-image.svg" 
             alt="Newsletter" 
-            width={200}
-            height={200}
             />
 
           <div className="newsletter-right-side">

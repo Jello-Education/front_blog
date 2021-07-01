@@ -15,14 +15,15 @@ export const Container = styled.div`
   margin: 0 16px;
 
   strong {
-    font-size: 20px;
+    font-size: 1.5rem;
+    margin-top: 10px;
   }
 
-  p {
-    margin-top: 4px;
-    font-size: 16px;
-    max-width: 250px;
+  img {
+    width: 9rem;
+    height: 9rem;
   }
+
   &:hover {
     background: rgba(253, 51, 115, 0.1);
   }

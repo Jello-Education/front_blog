@@ -17,22 +17,18 @@ const Courses: React.FC = () => {
           </div>
 
           <div className="courses-right-first-description">
-            <Image 
+            <img 
               src="/sobre-cursos.svg" 
               alt="Quadro de cursos" 
-              width={606}
-              height={420}
             />     
           </div>
         </div>
 
         <div className="second-description">
           <div className="courses-left-second-description">
-            <Image 
+            <img 
               src="/study-image.svg" 
               alt="Menina estudando" 
-              width={506}
-              height={320}
               />
           </div>
 
@@ -57,22 +53,18 @@ const Courses: React.FC = () => {
           </div>
 
           <div className="courses-right-first-description">
-            <Image 
+            <img 
               src="/about-curso.svg" 
               alt="Quadro de cursos" 
-              width={606}
-              height={420}
             />     
           </div>
         </div>
 
         <div className="second-description">
           <div className="courses-left-second-description">
-            <Image 
+            <img 
               src="/about-prof.svg" 
               alt="Menina estudando" 
-              width={506}
-              height={320}
               />
           </div>
 
