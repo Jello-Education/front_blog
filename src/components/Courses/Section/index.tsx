@@ -17,10 +17,8 @@ const Section: React.FC = () => {
           </Icon>
         </Input>
         </Texts>
-        <Image 
+        <img
           src="/courses-example-img.svg"
-          width={440}
-          height={600}
         />
     </Container>
   );

@@ -5,12 +5,18 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 1100px) {
+    img {
+      display: none;
+    }
+  }
 `;
 
 export const Texts = styled.div`
   h1{
-    font-size: 48px;
-    width: 550px;
+    font-size: 3rem;
+    width: 15rem;
     margin-bottom: 70px;
 
     b{
@@ -20,8 +26,8 @@ export const Texts = styled.div`
 `;
 
 export const Input = styled.div`
-  width: 566px;
-  height: 85px;
+  width: 35rem;
+  height: 5rem;
   border-radius: 20px;
   background: #fff;
   color: #828282;
@@ -39,8 +45,8 @@ export const Input = styled.div`
 `;
 
 export const Icon = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   background: #44F9BD;
   
