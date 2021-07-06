@@ -9,6 +9,8 @@ import NewsletterSection from '../components/Shared/NewsletterSection';
 import JelloInfo from '../components/Shared/JelloInfo';
 import SEO from '../components/Seo';
 
+import { FiSearch } from 'react-icons/fi';
+
 import {
   Container,
   Background,
@@ -51,7 +53,6 @@ const Home: React.FC = () => {
       <SEO title="Home" />
 
       <Background>
-        <div />
         <img 
         src="/homeBackgroundImage.png" 
         alt="Imagem de fundo da Home" 
@@ -62,10 +63,7 @@ const Home: React.FC = () => {
         <InputSearchContainer>
           <input placeholder="O que você deseja buscar?" />
           <div>
-            <img 
-            src="/search-icon.svg" 
-            alt="Ícone de pesquisa" 
-            />
+            <FiSearch color="#fff"/>
           </div>
         </InputSearchContainer>
       </SearchContainer>

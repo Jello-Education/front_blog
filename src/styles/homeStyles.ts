@@ -15,27 +15,16 @@ export const Background = styled.div`
   z-index: -1;
   width: 100%;
 
-  div {
-    position: absolute;
-    z-index: 1;
-    width: 516px;
-    height: 299px;
-    background: rgba(214, 214, 214, 0.7);
-    margin-left: 24px;
-    margin-top: 193px;
-    overflow: hidden;
-  }
-
   img {
     width: 100%;
-    height: 731px;
+    height: 40rem;
     top: 37px;
   }
 `;
 
 export const SearchContainer = styled.div`
   display: flex;
-  height: 195px;
+  height: 12rem;
   background: #f2f2f2;
   border-radius: 53px 53px 0 0;
   align-items: center;
@@ -46,33 +35,43 @@ export const SearchContainer = styled.div`
 
 export const InputSearchContainer = styled.div`
   display: flex;
-  width: 920px;
+  width: 45%;
+  height: 5rem;
   background: #fafafa;
   border-radius: 35px;
   justify-content: space-between;
   padding: 12px 25px 12px 25px;
 
+  @media (max-width: 1000px) {
+    width: 90%;
+  }
+
   input {
     border: none;
     background: transparent;
-    width: 400px;
+    width: 90%;
 
     ::placeholder {
       color: #b0a8a8;
-      font-size: 24px;
+      font-size: 1.2rem;
       overflow: visible;
     }
   }
 
   div {
-    width: 60px;
-    height: 60px;
+    width: 3rem;
+    height: 3rem;
     border-radius: 30px;
     background: #44f9bd;
     box-shadow: 0px 4px 4px rgba(253, 51, 115, 0.2);
     display: flex;
     justify-content: center;
     align-content: center;
+
+    svg {
+      height: 3rem;
+      width: 3rem;
+    }
   }
 `;
 
@@ -135,9 +134,11 @@ export const PagesNavContainer = styled.div`
 
 export const Input = styled(InputComponent)``;
 
-export const Button = styled(ButtonComponent)``;
+export const Button = styled(ButtonComponent)`
+`;
 
 export const Footer = styled.footer`
+  width: 100%;
   padding: 18px 24px;
   background: #e6e6e6;
   border-radius: 53px 53px 0px 0px;
@@ -157,16 +158,27 @@ export const Footer = styled.footer`
 
   .footer-bottom {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (max-width: 1000px) {
+      justify-content: center;
+      align-items: center;
+
+      .footer-bottom-inputs {
+        width: 95% !important;
+      }
+    }
 
     .footer-bottom-inputs {
       display: flex;
-      width: 84%;
+      flex-wrap: wrap;
+      width: 100rem;
     }
 
     .footer-bottom-button {
       display: flex;
-      width: 16%;
+      width: 15rem;
     }
   }
 `;
