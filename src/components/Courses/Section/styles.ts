@@ -14,10 +14,22 @@ export const Container = styled.div`
 `;
 
 export const Texts = styled.div`
+  display: flex;
+  flex-direction: column;
+  
+  @media (max-width: 1000px) {
+    align-items: center;
+    text-align: center;
+  }
+  
   h1{
     font-size: 3rem;
     width: 15rem;
     margin-bottom: 70px;
+
+    @media (max-width: 1000px) {
+      width: 300px;
+    }
 
     b{
       color: #FD3373;

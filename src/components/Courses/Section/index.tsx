@@ -16,7 +16,7 @@ const Section: React.FC = () => {
             <FiSearch size={30} color="#fff"/>
           </Icon>
         </Input>
-        </Texts>
+      </Texts>
         <img
           src="/courses-example-img.svg"
         />
