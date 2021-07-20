@@ -1,32 +1,18 @@
 import React from 'react';
 
-import { Container, BoxText, BoxSection, CarousellDots, Dots } from './styles';
+import { Container } from './styles';
 
 const FeedBacks: React.FC = () => {
   return (
     <Container>
-      <h1>
-        O que as  pessoas estão
-        falando sobre a Jello  
-      </h1>
 
-      <line />
+      <h1>Conteúdo sobre educação</h1>
+      <p>Visiste nosso <a>blog</a> e fique por dentro de nossas novidades!</p>
 
-      <BoxSection>
-        <BoxText className="first">
 
-        </BoxText>
+      <img src="./mvp-feed.svg" alt="blogPhoto"/>
 
-        <BoxText className="second">
-
-        </BoxText>
-      </BoxSection>
-
-      <CarousellDots>
-        <Dots active/>
-        <Dots />
-        <Dots />
-      </CarousellDots>
+      <button>Visitar</button>
     </Container>
   );
 }

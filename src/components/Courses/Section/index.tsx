@@ -1,12 +1,14 @@
 import React from 'react';
-import Image from 'next/image';
 
-import { Container, Texts, Input, Icon  } from './styles';
+import { Container, Texts, Input, Icon, Background  } from './styles';
 import { FiSearch } from 'react-icons/fi';
 
 const Section: React.FC = () => {
   return (
     <Container>
+      <Background>
+        <img src="./courses-bg.svg"/>
+      </Background>
       <Texts>
         <h1>Estudar pode ser <b>divertido!</b></h1>
 
@@ -19,6 +21,7 @@ const Section: React.FC = () => {
       </Texts>
         <img
           src="/courses-example-img.svg"
+          className="img-land"
         />
     </Container>
   );

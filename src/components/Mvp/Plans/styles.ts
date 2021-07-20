@@ -4,7 +4,7 @@ export const Container = styled.div`
   position: relative;
   height: 1100px;
   width: 100%;
-  margin-bottom: 230px;
+  margin-bottom: 2rem !important;
 
   display: flex;
   flex-direction: column;
@@ -35,6 +35,23 @@ export const Container = styled.div`
       display: none;
     }
   }
+
+   > h1 {
+    font-size: 2.3rem !important;
+  }
+
+  button {
+    height: 4.5rem;
+    width: 40rem;
+    background: #44F9BD;
+    border-radius: 40px;
+    border: 0;
+    box-shadow: 1px 8px 1px #39CF9D;
+    color: #000;
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: -2rem; 
+  }
 `;
 
 export const PlansContainer = styled.div` 
@@ -47,12 +64,13 @@ export const PlansContainer = styled.div`
 `;
 
 export const Plan = styled.div`
-    width: 448px;
-    height: 756px;
+    width: 25rem;
+    height: 40rem;
     background: #fafafa;
     border-radius: 30px;
     box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
     margin: 0 15px;
+    padding: 40px !important;
     
     
     display: flex;
@@ -62,14 +80,23 @@ export const Plan = styled.div`
     text-align: center;
 
     &.recomended{
-      height: 814px;
-      background: #fd79a3;
+      height: 45rem;
+      background: #FD3373;
       color: #fafafa;
     }
 
     h1{
       width: 250px;
-      
+      font-size: 2.3rem !important;  
+
+      b {
+        color: #39CF9D;
+        text-shadow: 1px 3px 1px #000;
+
+        &.premium {
+          color: #fff;
+        }
+      }   
     }
 
     @media (max-width: 1200px){
@@ -81,5 +108,14 @@ export const Plan = styled.div`
 export const Description = styled.div`
   height: 432px;
   width: 212px;
-  background: #c4c4c4;
+  
+  ul {
+    list-style: disc;
+    font-size: 1.3rem;
+    color: #000;
+
+    li {
+      margin-top: 1.5rem;
+    }
+  }
 `;
