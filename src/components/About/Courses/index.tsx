@@ -7,7 +7,7 @@ const Courses: React.FC = () => {
   return (
     <Container>
       <div className="first-description">
-          <div className="courses-left-first-description">
+          <div >
             <h2>Como são os cursos?</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
