@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const Container = styled.div`
   height: 600px;
   display: flex;
@@ -10,6 +11,28 @@ export const Container = styled.div`
     img {
       display: none;
     }
+  }
+
+  img.img-land {
+    height: 40rem;
+    margin-left: 100px;
+  }
+  > img {
+    
+  }
+`;
+
+export const Background = styled.div`
+  position: absolute;
+  z-index: -2;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 500px;
+
+  img {
+    width: 100%;
+    height: 40rem;
   }
 `;
 

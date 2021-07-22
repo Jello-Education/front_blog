@@ -8,6 +8,8 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+  margin-top: 80px;
 `;
 
 export const Categorie = styled.button`

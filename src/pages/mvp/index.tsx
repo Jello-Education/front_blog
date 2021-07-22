@@ -11,8 +11,8 @@ import FeedBacks from '../../components/Mvp/FeedBacks';
 import MobileAppSection from '../../components/Mvp/MobileAppSection';
 import JelloInfo from '../../components/Shared/JelloInfo';
 import Cards from '../../components/Mvp/Cards';
-import Content from '../../components/Mvp/Content';
 import SEO from '../../components/Seo';
+import Plans from '../../components/Mvp/Plans';
 
 const Mvp: React.FC = () => {
   return (
@@ -31,8 +31,8 @@ const Mvp: React.FC = () => {
       <Exam />
       <Detail />
       <FeedBacks />
-      <Content />
       <MobileAppSection />
+      <Plans />
       <JelloInfo />
 
     </Container>
