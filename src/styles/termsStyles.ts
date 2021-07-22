@@ -4,7 +4,7 @@ export const TextBox = styled.div `
 
 
 div {
-    boder-radius: 20px;
+    border-radius: 20px;
     background:  #F1F1F1;
     border-radius: 25px;
      padding: 20px; 
