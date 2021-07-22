@@ -16,11 +16,12 @@ export const Container = styled.div`
 
   h3 {
     color: #535353;
+    font-size: 1.2rem;
   }
 
   span, p{
     color: #A83056;
-    font-size: 14px;
+    font-size: 0.9rem;
   }
 `;
   

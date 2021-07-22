@@ -11,7 +11,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
   text-align: left;
 
   header{
@@ -29,13 +28,36 @@ export const Container = styled.div`
     }
   }
 
-  p {
+  p, span {
     color: #A83056;
     font-size: 0.9rem;
+  }
+
+  span {
+    margin-right: 10px;
   }
 
   button {
     border: 0;
     background: none;
+    border-radius: 25px;
+    padding: 5px 0;
+
+    display: flex;
+    align-items: center;
+
+    transition: all 0.2s;
+
+    &:hover {
+      background: #FD79A3;
+      color: #fff !important;
+      padding: 5px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
   }
 `;
