@@ -24,27 +24,15 @@ import {
 } from '../styles/homeStyles';
 
 
-interface IPost {
-  id: number;
-  author: string;
-  type: string;
-  date: string;
-  image: string;
-  avatar: string;
-}
-
 const Home: React.FC = () => {
-  const [posts, setPosts] = useState<IPost[]>([]);
 
-  useEffect(() => {
-    async function loadPosts(): Promise<void> {
-      const response = await api.get('/posts');
-
-      setPosts(response.data);
-    }
-
-    loadPosts();
-  }, []);
+  const post = {
+    author: "Fulano de tal",
+    type: "Tipo de conteúdo",
+    date: "Data da postagem",
+    image: "https://images.unsplash.com/photo-1507537064587-464384459bb7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+    avatar: "https://images.unsplash.com/photo-1533435137002-455932c8538f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+  }
 
   return (
     <Container>
@@ -69,7 +57,16 @@ const Home: React.FC = () => {
       </SearchContainer>
 
       <PostsContainer>
-        {posts && posts.map(post => <Post key={post.id} post={post} />)}
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
+        <Post  post={post} />
       </PostsContainer>
 
       <PagesNavContainer>

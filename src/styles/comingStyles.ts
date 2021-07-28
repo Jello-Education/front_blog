@@ -13,8 +13,8 @@ export const ComingSoonContainer = styled.div`
   align-items: center;
 
   img {
-    width: 980px;
-    height: 1080px;
+    width: 700px;
+    height: 500px;
   }
 
   h2 {
