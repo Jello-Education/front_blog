@@ -7,8 +7,9 @@ div {
     boder-radius: 20px;
     background:  #F1F1F1;
     border-radius: 25px;
-     padding: 20px; 
-     width: 1160px;
+     padding: 20px;
+     width: 100%;
+     max-width: 1170px; 
      height: 700px;
      position:relative;
      left: 117px;
@@ -21,7 +22,8 @@ div {
             overflow-y: scroll; 
             border-radius: 25px;
              padding: 20px; 
-             width: 1110px;
+             width: 100%;
+             max-width: 1110px;
              height: 650px;
              position:relative;
              left: 10px;
@@ -48,7 +50,36 @@ div {
 
 
 }
-       
+
+@media (max-width: 900px) {
+  div {
+    max-width: 350px; 
+}
+
+  .Scrollbar {
+    max-width: 300px; 
+  }
+}
+      
+@media (max-width: 768px) {
+
+  div {
+    max-width: 650px; 
+}
+
+  .Scrollbar {
+    max-width: 300px; 
+  }
+}
+
+@media (max-width: 425px) {
+  div {
+    position: relative;
+    left: 7%
+  }
+}
+
+}
 `
 
 export const Checkbox = styled.div `
@@ -121,5 +152,30 @@ p {
   }
 
 
+  @media screen and (max-width: 900px) {
+    p {
+      font-size: 20px;
+  
+    }
+  }
+
+  @media (max-width: 425px) {
+    .container {
+      position: relative; 
+      left: 50px;
+    }
+  }
+
+  @media (max-width: 320px) {
+
+    .container {
+      position: relative; 
+      left: 20px;
+    }
+    
+    p {
+      font-size: 18px;
+    }
+  }
 
 `

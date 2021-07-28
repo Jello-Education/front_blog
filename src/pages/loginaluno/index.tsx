@@ -13,10 +13,10 @@ const LoginAluno: React.FC = () => {
     return (
         <Login>
             <SEO title="LoginAluno" />
-            <img className="alunoImage" src="/login-aluno.svg" alt="Imagem de aluno estudando" />
+            <img className="aluno-image" src="/login-aluno.svg" alt="Imagem de aluno estudando" />
             <Container>
 
-                <main >
+                <main className="content">
                     <svg id="wave" width="725" height="1024" viewBox="0 0 725 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M72.0045 -0.5C72.0045 -0.5 96.4999 76 96.4999 229C96.4999 382 -13.0503 604.5 2.49989 765C18.05 925.5 72.0045 1023.5 72.0045 1023.5H725.5V-0.5H72.0045Z" fill="#FDFDFD" />
                     </svg>
@@ -50,7 +50,7 @@ const LoginAluno: React.FC = () => {
                             <Checkbox>
 
                                     <label className="container"><p>Continuar conectado(a)</p>
-                                        <input type="checkbox" />
+                                        <input className="chekmark-input" type="checkbox" />
                                         <span className="checkmark"></span>
                                     </label>
 

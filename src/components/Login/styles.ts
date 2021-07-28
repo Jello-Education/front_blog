@@ -18,7 +18,7 @@ export const LoginSenha = styled.div `
   .password-icon {
     color: #FD3373;
     position: absolute;
-    top: 421px;
+    top: 422px;
     right: 7px;
     cursor: pointer;
   }

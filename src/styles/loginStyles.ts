@@ -3,9 +3,8 @@ import styled from 'styled-components';
 export const Login = styled.div`
 
 img {
-  position: relative;
-  top:px;
-  width:822px;
+  width: 62.8%;
+  
 
 }
 
@@ -26,7 +25,7 @@ strong {
 
 #wave {
   position: absolute;
-  width: 734px;
+  width:  734px;
   height: 1044px;
   left: -12.5em;
   top: -2.5px;
@@ -41,8 +40,6 @@ main {
   justify-content: center;
   
 }
-
-
 
 
 .main-content {
@@ -268,6 +265,78 @@ text-transform: uppercase;
 }
 
 }
+
+}
+
+@media (max-width: 768px) {
+  
+  img {
+    width: 900px;
+  }
+
+}
+  @media (max-width: 425px) {
+
+
+    .content {
+      width: 0px;
+      top: 140%;
+      background-color:transparent;
+    }
+    
+
+    div .main-content {
+      position: relative;
+      top: -189px;
+      left: 20px;
+      zoom: 254%;
+    }
+
+    .chekmark-input {
+      position: relative;
+      top: -189px;
+    } 
+
+    .aluno-image {
+      position: relative;
+      opacity: 0.8;
+      left: 0px;
+      top: 0em;
+      width: 163em;
+      height: 213em;
+      
+    }
+
+    a {
+      color: white;
+    }
+
+    #wave {
+      width: 0%
+    }
+
+    #line-2 {
+      position: relative;
+      top:151px;
+    }
+
+    .icon-carta {
+      position:absolute;
+      width: 24px;
+      top: 61.5%;
+      left: 4.1%;
+    }
+    
+    .icon-cadeado {
+    
+    position:absolute;
+      width: 24px;
+      top: 71.5%;
+      left: 4.1%;
+    }
+    
+  }
+
 `
 export const Container = styled.div`
 
@@ -364,6 +433,35 @@ p {
       background: white;
   }
 
+  @media (max-width: 425px) {
+    p  {
+      color: black;
+      font-size: 13.5px;
+    }
+    .checkmark {
+      position: absolute;
+      top: -0.5px;
+      left: 85px;
+      height: 15px;
+      width: 15px;
+      background-color:white;
+      border: 2px solid #FD3373;
+      box-sizing: border-box;
+      border-radius: 1.8px;
+    }
 
+    
+
+    .container .checkmark:after {
+      top: 3px;
+     left: 3px;
+     width: 5px;
+     height: 5px;
+     border-radius: 50%;
+     background: white;
+ }
+
+
+  }
 
 `
