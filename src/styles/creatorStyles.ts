@@ -40,9 +40,3 @@ export const Ad  = styled.div`
     font-size: 1rem;
   }
 `;
-export const Screen = styled.div`
-  width: 810px;
-  height: 497px;
-  background: #fff;
-  border-radius: 40px;
-`;

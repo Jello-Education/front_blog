@@ -23,7 +23,20 @@ export const BackgroundImage = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 176px;
+  padding: 0 10rem;
+
+  @media (max-width: 1000px) {
+    padding: 0 50px;
+
+    h1 {
+      width: 320px !important;
+
+    }
+
+    p {
+      width: 320px !important;
+    }
+  }
 
   &::before{
     content: "";
@@ -37,7 +50,7 @@ export const BackgroundImage = styled.div`
 
   h1{
     width: 480px;
-    font-size: 52px;
+    font-size: 3.5rem;
     margin-bottom: 20px;
 
     b{
@@ -54,6 +67,6 @@ export const BackgroundImage = styled.div`
 
   p{
     width: 480px;
-    font-size: 28px;
+    font-size: 1.9rem;
   }
 `;

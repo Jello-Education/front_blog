@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FaStar } from 'react-icons/fa';
+import { FaStar, FaCoins } from 'react-icons/fa';
 import { Container } from './styles';
 
 const Profile: React.FC = () => {
@@ -24,16 +24,18 @@ const Profile: React.FC = () => {
       <p>Mesmbro desde: Fevereiro de 2021</p>
 
       <button>
+        <img src="./creator-icon-estastica.svg" alt="estatisca"/>
         <p>Estatistica</p>
       </button>
       
       <button>
-
+        <img src="./creator-icon-video.svg" alt="estatisca"/>
         <p>Estatistica</p>
       </button>
 
       <button>
-        <p>Estatistica</p>
+        <img src="./creator-icon-dinheiro.svg" alt="dinheiro"/>
+        <p>Financeiro</p>
       </button>
     </Container>
   );

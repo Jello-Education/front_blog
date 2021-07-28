@@ -7,11 +7,13 @@ export const Container = styled.div`
 
   h3 {
     color: #535353;
+    font-size: 1.2rem;
   }
 
 
   span, p {
     color: #A83056;
+    font-size: 0.9rem;
   }
 `;
 
@@ -27,6 +29,10 @@ export const Sobre = styled.div`
   h3{
     margin-bottom: 25px;
     margin-right: 25px;
+  }
+
+  @media (max-width: 1000px) {
+    width: 95% !important;
   }
 `;
 
@@ -47,18 +53,26 @@ export const Icon = styled.div`
 
 export const CursesBox = styled.div`
   width: 800px;
-  height: 345px;
   border-radius: 10px;
   background: #fff;
   padding: 22px 20px 0px 30px;
+
+  @media (max-width: 1000px) {
+    width: 95% !important;
+  }
 `;
 
 export const CourseList = styled.div`
   margin-top: 15px;
 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 1000px) {
+    justify-content: center;
+  }
 
   span{
     font-size: 14px;
@@ -67,17 +81,18 @@ export const CourseList = styled.div`
 
   div{
     text-align: center;
+    margin-top: 10px;
 
     > p{
-      font-size: 14px;
+      font-size: 0.8rem;
       margin-top: 10px;
     }
   }
 `;
 
 export const CourseBox = styled.div`
-  width: 330px;
-  height: 219px;
+  width: 20.5rem;
+  height: 13.5rem;
   border: 2px solid #f1f1f1;
   border-radius: 10px;
   cursor: pointer;
@@ -90,7 +105,7 @@ export const CourseBox = styled.div`
 
   img{
     width: 100%;
-    height: 160px;
+    height: 10rem;
   }
 
   h3{
