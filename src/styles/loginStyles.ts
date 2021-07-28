@@ -279,16 +279,17 @@ text-transform: uppercase;
 
 
     .content {
-      width: 0px;
-      top: 140%;
-      background-color:transparent;
-    }
+      width: 110em;
+      height: 136em;
+      top: 78%;
+      left: 27em;
+}
     
 
     div .main-content {
       position: relative;
       top: -189px;
-      left: 20px;
+      left: 8px;
       zoom: 254%;
     }
 
@@ -299,11 +300,10 @@ text-transform: uppercase;
 
     .aluno-image {
       position: relative;
-      opacity: 0.8;
       left: 0px;
       top: 0em;
       width: 163em;
-      height: 213em;
+      height: 215em;
       
     }
 
@@ -314,12 +314,22 @@ text-transform: uppercase;
     #wave {
       width: 0%
     }
+    #line-1 {
+      width: 203px;
+      top: 185px;
+      left: -133px;
+    }
 
     #line-2 {
       position: relative;
-      top:151px;
+      width: 203px;
+      top: 156px;
+      left: 117px;
     }
 
+    .separator {
+      left: -8px;
+    }
     .icon-carta {
       position:absolute;
       width: 24px;
