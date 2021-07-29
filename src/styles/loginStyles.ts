@@ -278,11 +278,16 @@ text-transform: uppercase;
   @media (max-width: 425px) {
 
 
+    #wave {
+      width: 0px
+    }
+    
     .content {
       width: 110em;
       height: 136em;
-      top: 78%;
-      left: 27em;
+      top: 75%;
+      left: 26em;
+      border-radius: 25px;
 }
     
 
@@ -298,6 +303,7 @@ text-transform: uppercase;
       top: -189px;
     } 
 
+
     .aluno-image {
       position: relative;
       left: 0px;
@@ -305,10 +311,6 @@ text-transform: uppercase;
       width: 163em;
       height: 215em;
       
-    }
-
-    a {
-      color: white;
     }
 
     #wave {
@@ -344,7 +346,28 @@ text-transform: uppercase;
       top: 71.5%;
       left: 4.1%;
     }
+
+    @media (max-width: 375px) {
+      
+      .aluno-image {
+        width: 141em;
+      }
+
+      .content {
+        left: 18em;
+      }
     
+    }
+    
+    @media (max-width: 320px) {
+      .aluno-image {
+        width: 123em;
+    }
+
+    .content {
+      left: 6em;
+  }
+    }
   }
 
 `
@@ -445,7 +468,6 @@ p {
 
   @media (max-width: 425px) {
     p  {
-      color: black;
       font-size: 13.5px;
     }
     .checkmark {

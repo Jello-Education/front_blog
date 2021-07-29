@@ -50,7 +50,7 @@ const LoginProdutor: React.FC = () => {
                         <Checkbox>
 
                                 <label className="container"><p>Continuar conectado(a)</p>
-                                    <input className="chekmark-input" type="checkbox" />
+                                    <input id="check" type="checkbox" />
                                     <span className="checkmark"></span>
                                 </label>
 
