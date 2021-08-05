@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
   flex: 1;
-  width: 34rem;
+  width: 24rem;
   height: 4rem;
 
   margin-bottom: 12px;
@@ -22,7 +22,7 @@ export const Container = styled.div`
     background: transparent;
 
     &::placeholder {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-weight: 500;
       font-size: 1rem;
       color: #b0a8a8;
