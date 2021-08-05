@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.header`
   position: fixed;
@@ -14,7 +14,6 @@ export const Container = styled.header`
   img {
     margin-right: 7.8rem;
     width: 8rem !important;
-    height: 3rem;
     cursor: pointer;
   }
 
@@ -39,8 +38,6 @@ export const HeaderContent = styled.div`
   align-items: center;
   padding: 0 2rem;
 `;
-
-
 
 export const NavBar = styled.div`
   display: flex;

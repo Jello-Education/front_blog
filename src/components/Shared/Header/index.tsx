@@ -1,22 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import NavLink from '../NavLink';
+import NavLink from "../NavLink";
 
-import { Container, HeaderContent, NavBar } from './styles';
-import Link from 'next/link';
+import { Container, HeaderContent, NavBar } from "./styles";
+import Link from "next/link";
 
-const Header: React.FC = () => {  
-
+const Header: React.FC = () => {
   return (
     <Container>
       <HeaderContent>
         <Link href="/">
-          <img
-            src="/novo-logo-jello.svg" 
-            alt="Logo da Jello" 
-            />
+          <img src="/novo-logo-jello.svg" alt="Logo da Jello" />
         </Link>
-
 
         <NavBar>
           <NavLink to="/about">Sobre</NavLink>
