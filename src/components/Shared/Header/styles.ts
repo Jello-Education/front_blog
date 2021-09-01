@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   position: fixed;
+  left: 0rem;
   z-index: 9999;
   top: 0;
   height: 80px;

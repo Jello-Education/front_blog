@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 100%;
+  width: 50vh;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -20,4 +21,19 @@ export const AboutJelloDetails = styled.div`
     min-height: 370px;
     border-radius: 0;
   }
+  /*
+  @media (min-width: 768px) {
+    img {
+      width: 159%;
+      min-height: 381px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    img {
+      min-height: 322px;
+    }
+  }
+
+  */
 `;
