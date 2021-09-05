@@ -12,7 +12,10 @@ const Courses: React.FC = () => {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco{" "}
+            ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco.
           </p>
         </div>
 
@@ -28,11 +31,14 @@ const Courses: React.FC = () => {
 
         <div className="courses-right-second-description">
           <h2>Quantos cursos eu posso fazer?</h2>
-          <h3>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco{" "}
-          </h3>
+            ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum
+            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco{" "}
+          </p>
         </div>
       </div>
 
@@ -46,23 +52,26 @@ const Courses: React.FC = () => {
           </p>
         </div>
 
-        <div className="courses-right-first-description">
+        <div className="courses-img">
           <img src="/about-curso.svg" alt="Quadro de cursos" />
         </div>
       </div>
 
       <div className="second-description">
-        <div className="courses-left-second-description">
+        <div className="courses-left-img">
           <img src="/about-prof.svg" alt="Menina estudando" />
         </div>
 
         <div className="courses-right-second-description">
           <h2>Quem são os professores dos cursos?</h2>
-          <h3>
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco{" "}
-          </h3>
+            ad minim veniam, quis nostrud exercitation ullamco Lorem ipsum dolor
+            sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco{" "}
+          </p>
         </div>
       </div>
     </Container>

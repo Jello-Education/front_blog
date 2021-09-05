@@ -13,20 +13,22 @@ import {
 
 const AboutJello: React.FC = () => {
   return (
-    <Container>
-      <Header />
+    <>
+      <Container>
+        <Header />
 
-      <SEO title="Sobre" />
+        <SEO title="Sobre" />
 
-      <AboutJelloDetails>
-        <img src="/about-banner.svg" alt="banner" />
-      </AboutJelloDetails>
+        <AboutJelloDetails>
+          <img src="/about-banner.svg" alt="banner" />
+        </AboutJelloDetails>
 
-      <Contents>
-        <Courses />
-      </Contents>
+        <Contents>
+          <Courses />
+        </Contents>
+      </Container>
       <JelloInfo />
-    </Container>
+    </>
   );
 };
 
