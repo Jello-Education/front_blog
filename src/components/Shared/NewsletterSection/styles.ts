@@ -1,15 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import InputComponent from '../InputComponent';
-import ButtonComponent from '../ButtonComponent';
+import InputComponent from "../InputComponent";
+import ButtonComponent from "../ButtonComponent";
 
 export const Container = styled.div`
-
   .newsletter-section {
     display: flex;
     width: 100%;
 
-    @media(max-width: 1100px) {
+    @media (max-width: 1100px) {
       padding: 0 10px;
 
       img {
@@ -20,7 +19,7 @@ export const Container = styled.div`
     .newsletter-container {
       display: flex;
       width: 100%;
-      padding: 30px;
+      padding: 20px;
 
       background: #fd98b8;
       border-radius: 20px;
@@ -45,7 +44,7 @@ export const Container = styled.div`
           margin-bottom: 15px;
 
           span {
-            font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", sans-serif;
             font-weight: 500;
             font-size: 2.2rem;
             color: #fafafa;
@@ -66,13 +65,13 @@ export const Container = styled.div`
           p {
             width: 100%;
             padding-top: 20px;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", sans-serif;
             font-weight: 500;
             font-size: 1.3rem;
             color: #fafafa;
 
             span {
-              font-family: 'Poppins', sans-serif;
+              font-family: "Poppins", sans-serif;
               font-weight: 500;
               font-size: 1.3rem;
               color: #fd3373;
@@ -80,8 +79,7 @@ export const Container = styled.div`
           }
 
           .forms {
-            height: 200px;
-            width: 32%;
+            width: 100%;
           }
         }
       }
