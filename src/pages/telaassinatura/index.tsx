@@ -26,7 +26,9 @@ const TelaAssinatura: React.FC = () => {
               diferente, mas com foco no seu objetivo.
             </p>
             <Botao>
+              <div>
               <button className="button-top">Ver Planos</button>
+              </div>
             </Botao>
           </div>
 
@@ -104,6 +106,11 @@ const TelaAssinatura: React.FC = () => {
                 Descrição
               </li>
             </ul>
+            <Botao>
+            <div>
+              <button className="button-planos">Quero esse!</button>
+            </div>
+            </Botao>
           </div>
 
           <div className="planoRosa">
@@ -114,6 +121,7 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                  className="icon-branco"
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
@@ -122,6 +130,7 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                   className="icon-branco"
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
@@ -130,6 +139,7 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                   className="icon-branco"
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
@@ -138,6 +148,7 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                   className="icon-branco"
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
@@ -146,6 +157,7 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                   className="icon-branco"
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
@@ -154,6 +166,7 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                   className="icon-branco"  
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
@@ -162,6 +175,7 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                 className="icon-branco"
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
@@ -170,13 +184,22 @@ const TelaAssinatura: React.FC = () => {
               <li>
                 {" "}
                 <img
+                 className="icon-branco"
                   src="/SIMBOLO DEGRADE.svg"
                   alt="Logo em minuatura da Jello"
                 ></img>
                 Descrição
               </li>
+             
             </ul>
+            <Botao>
+            <div>
+              <button className="button-planos">Quero esse!</button>
+            </div>
+            </Botao>
           </div>
+
+        
 
           <div className="planoBranco">
             {" "}
@@ -248,23 +271,13 @@ const TelaAssinatura: React.FC = () => {
                 Descrição
               </li>
             </ul>
+            <Botao>
+            <div>
+              <button className="button-planos">Quero esse!</button>
+            </div>
+            </Botao>
           </div>
         </Planos>
-
-        <Botao>
-          <div>
-            <button className="button-left">
-              <h2>Quero esse!</h2>
-            </button>
-            <button className="button-center">
-              <h2>Quero esse!</h2>
-            </button>
-            <button className="button-right">
-              <h2>Quero esse!</h2>
-            </button>
-          </div>
-        </Botao>
-
         <Extra>
           <img
             className="extra-01"
