@@ -11,6 +11,18 @@ export const Container = styled.header`
   background: #fafafa;
   border: 0.75px solid #e5e5e5;
   border-radius: 0 0 20px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+  .home {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 24px;
+
+    color: #F24C4C;
+    margin: 0 30px 4px;
+  }
 
   img {
     margin-right: 7.8rem;

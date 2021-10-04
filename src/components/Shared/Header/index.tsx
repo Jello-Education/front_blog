@@ -14,9 +14,10 @@ const Header: React.FC = () => {
         </Link>
 
         <NavBar>
-          <NavLink to="/about">Sobre</NavLink>
-          <NavLink to="">Conteúdo</NavLink>
-          <NavLink to="/coming">Em breve!</NavLink>
+          <a href="/" className="home">Home</a>
+          <NavLink to="/coming">Comece a Aprender</NavLink>
+          <NavLink to="/coming">Conteúdos</NavLink>
+          <NavLink to="/about">Sobre a Jello</NavLink>
         </NavBar>
       </HeaderContent>
     </Container>

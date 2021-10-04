@@ -14,10 +14,12 @@ const TelaAssinatura: React.FC = () => {
         <Header />
         <SEO title="TelaAssinatura" />
         <Titulo>
+          <div>
           <img
             src="/assinatura-background.svg"
             alt="Imagem de pessoas felizes por terminarem um curso da jello"
           />
+          </div>
           <div>
             <h2>Faça curso online com a gente</h2>
             <p>

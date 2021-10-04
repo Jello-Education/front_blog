@@ -45,7 +45,7 @@ export const Planos = styled.div`
     @media (min-width: 768px) and (max-width: 900px) {
       .planoBranco,
       .planoRosa {
-        left: 11em;
+        left: 12em;
       }
     }
 
@@ -103,10 +103,10 @@ export const Planos = styled.div`
   }
 `;
 export const Titulo = styled.div`
-  img {
-    width: 1350px;
+  //img {
+   // width: 1350px;
 
-  }
+  //}
   h2 {
     position: absolute;
     width: 652px;
@@ -144,7 +144,7 @@ export const Titulo = styled.div`
     @media (min-width: 764px) {
       margin: 0.5em;
       position: relative;
-      left: 8em;
+      left: 9em;
       width: 18em
 }
 @media (min-width: 1024px) {
@@ -152,6 +152,17 @@ export const Titulo = styled.div`
 }
     }
   }
+
+  @media (min-width: 1920px) {
+    
+  }
+
+  @media (min-width: 1080px) {
+    img {
+    width: 100%;
+  }
+  }
+
   @media (max-width: 600px) {
     img {
       max-width: 707px; 
