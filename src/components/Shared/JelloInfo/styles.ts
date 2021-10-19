@@ -14,7 +14,7 @@ export const Main = styled.div`
   padding: 64px 24px;
   border-top: 2px solid #fd3373;
   border-bottom: 2px solid #fd3373;
-
+  
   b.subTitle {
     margin-left: 7.5%;
     font-size: 22px;

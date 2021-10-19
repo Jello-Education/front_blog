@@ -57,7 +57,15 @@ export const Planos = styled.div`
 
     }
   }
+  
 
+  @media (min-width: 1920px) {
+    
+    .planoBranco,
+    .planoRosa {
+      left: 15em;
+
+    }
   }
   .planoTitulo {
     margin-top: 1em;
@@ -103,10 +111,6 @@ export const Planos = styled.div`
   }
 `;
 export const Titulo = styled.div`
-  //img {
-   // width: 1350px;
-
-  //}
   h2 {
     position: absolute;
     width: 652px;
@@ -150,11 +154,17 @@ export const Titulo = styled.div`
 @media (min-width: 1024px) {
   left: 6em;
 }
+    
+    @media (min-width: 1920px) {
+  left: 9em;
+}
     }
   }
 
   @media (min-width: 1920px) {
-    
+    img {
+      height: 122vh;
+    }
   }
 
   @media (min-width: 1080px) {
