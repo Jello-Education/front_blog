@@ -7,19 +7,7 @@ export const Container = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  @media (max-width: 1100px) {
-    img {
-      display: none;
-    }
-  }
 
-  img.img-land {
-    height: 40rem;
-    margin-left: 100px;
-  }
-  > img {
-    
-  }
 `;
 
 export const Background = styled.div`
@@ -28,12 +16,48 @@ export const Background = styled.div`
   top: 0;
   right: 0;
   width: 100%;
-  height: 500px;
+  height: 550px;
+  
+  background: 
+    linear-gradient(112.88deg, 
+    rgba(253, 51, 115, 0.4) 0.03%, 
+    rgba(68, 249, 189, 0.076) 100%);
+    
+ 
+    img  {
+      position: relative;
+      left: 37em;
+      top: 7.7em;
+      width: 56%;
 
-  img {
-    width: 100%;
-    height: 40rem;
+    }
+
+
+  @media (min-width: 1900px) {
+    img {
+    position: relative;
+      left: 70.8em;
+      top: 6.8em;
+    }
   }
+
+  @media (min-width: 768px) and (max-width: 900px) {
+    img {
+      position: relative;
+      left: 20.1em;
+      top: 17.7em;
+      width: 64%;
+    }
+  }
+
+  @media (max-width: 375px) {
+    img {
+      position: relative;
+      top: 32.2em;
+      width: 100%;
+    }
+  }
+
 `;
 
 export const Texts = styled.div`
@@ -63,7 +87,7 @@ export const Texts = styled.div`
 export const Input = styled.div`
   width: 35rem;
   height: 5rem;
-  border-radius: 20px;
+  border-radius: 50px;
   background: #fff;
   color: #828282;
   border: 1px solid #f1f1f1;
@@ -71,11 +95,21 @@ export const Input = styled.div`
 
   display: flex;
   align-items: center;
+  margin-right: 35em;
 
   input{
     border: 0;
     background: transparent;
     width: 100%;
+  }
+
+  @media (min-width: 768px) and (max-width: 900px) {
+    margin-right: 0;
+  }
+
+  @media (max-width: 375px) {
+    margin-right: 0;
+    width: 31rem;
   }
 `;
 
