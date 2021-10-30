@@ -1,116 +1,28 @@
 import styled from "styled-components";
 
-export const Planos = styled.div`
-  display: flex;
-  flex-wrap: nowrap;
+export const Container = styled.div`
+  height: 100%;
+  /* width: 50vh; */
   align-items: center;
-  
-    @media (max-width: 600px) {
-      flex-direction: column;
-      gap: 10em;
-    }
-    .planoBranco {
-      margin: 0 1em;
-      width: 320px;
-      height: 700px;
-      
-      background: #ffffff;
-      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
-      border-radius: 30px;
-      
-      position: relative;
-      left: 1em;
-      
-    }
-    .planoRosa {
-      width: 320px;
-      height: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
-      background: #fd3373;
-      box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.25);
-      border-radius: 30px;
+  margin-bottom: -150px;
 
-      position: relative;
-      left: 1em;
-    }
-
-    @media (min-width: 360px) and (max-width: 600px) {
-    }
-    .planoBranco,
-    .planoRosa {
-
-      left: 8.5em;
-    }
-
-    @media (min-width: 768px) and (max-width: 900px) {
-      .planoBranco,
-      .planoRosa {
-        left: 12em;
-      }
-    }
-
-    @media (min-width: 1000px) {
-    
-    .planoBranco,
-    .planoRosa {
-      left: 2.5em;
-
-    }
-  }
-  
-
-  @media (min-width: 1920px) {
-    
-    .planoBranco,
-    .planoRosa {
-      left: 15em;
-
-    }
-  }
-  .planoTitulo {
-    margin-top: 1em;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 48px;
-    /* or 120% */
+  .TitlePlans {
+    margin: 64px 0;
     text-align: center;
-    color: #282828;
-  }
-  .planoPreco {
+    line-height: 50px;
+    font-size: 20px;
     font-family: Montserrat;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 40px;
-    line-height: 48px;
-    /* or 120% */
-    text-align: center;
-    color: #44f9bd;
-    text-shadow: 0px 2px 1px #000000;
-  }
-  li {
-    margin-top: 0.5em;
-    padding-left: 0.5em;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 48px;
-    /* or 200% */
-    color: #282828;
-  }
-  img {
-    position: relative;
-    top: 3.5px;
-    margin-right: 0.5em;
-  }
-
-  .icon-branco {
-    filter: grayscale(100%) contrast(100%) invert(100%) brightness(2);
   }
 `;
+
 export const Titulo = styled.div`
+  width: 100%;
+
   h2 {
     position: absolute;
     width: 652px;
@@ -171,7 +83,7 @@ export const Titulo = styled.div`
     img {
     width: 100%;
   }
-  }
+  
 
   @media (max-width: 600px) {
     img {
@@ -195,47 +107,10 @@ export const Titulo = styled.div`
       font-size: 35px;
       left: 5.2em;
     }
+  }
 `;
 
 export const Botao = styled.div`
-  .button-planos {
-      display: block; 
-      margin: 3em 0.2em;
-
-      width: 340px;
-      height: 80px;
-
-      border: none;
-      background: #44f9bd;
-      box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
-      border-radius: 30px;
-
-      font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 48px;
-        color: #282828;
-   
-      @media (max-width: 600px) {
-        width: 320px;
-        height: 68px;
-        
-        margin: 2.5em 0;
-        
-        h2 {
-          font-size: 35px
-        }
-      }
-      @media (min-width: 764px) {
-        top: 138em;
-        width: 300px;
-        h2 {
-          font-size: 35px;
-        }
-      }
-    }
-  }
   .button-top {
     position: absolute;
     width: 320px;
@@ -261,29 +136,46 @@ export const Botao = styled.div`
   }
 `;
 
+export const Plans = styled.div`
+  display: flex;
+  width: 80%;
+  justify-content: center;
+`;
+
 export const Extra = styled.div`
+  background-color: red;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
   .extra-01 {
-    position: relative;
+    /* position: relative; */
+    background-color: yellow;
     width: 380px;
     height: 767px;
-    left: -5em;
-    top: 2.8em;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* left: -5em; */
+    /* top: 2.8em; */
     @media (max-width: 600px) {
       left: 9em;
     }
   }
   .extra-02 {
-    position: relative;
+    background-color: blue;
+    align-items: center;
+    /* position: relative; */
     width: 380px;
     height: 767px;
-    left: 6em;
-    top: 5em;
+    /* left: 6em; */
+    top: 50px;
     @media (max-width: 600px) {
       left: 9em;
       top: -1em;
     }
   }
-  }
+
   @media (min-width: 768px) {
     .extra-01 {
       width: 320px;
