@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100%;
-  /* width: 50vh; */
+  width: 100%;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -138,38 +137,37 @@ export const Botao = styled.div`
 
 export const Plans = styled.div`
   display: flex;
-  width: 80%;
+  max-width: 1200px;
   justify-content: center;
 `;
 
 export const Extra = styled.div`
-  background-color: red;
-  width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+
+  .divider {
+    width: 20px;
+    height: 200px;
+    margin: 20px;
+  }
 
   .extra-01 {
-    /* position: relative; */
-    background-color: yellow;
     width: 380px;
     height: 767px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    /* left: -5em; */
-    /* top: 2.8em; */
+
     @media (max-width: 600px) {
       left: 9em;
     }
   }
   .extra-02 {
-    background-color: blue;
     align-items: center;
-    /* position: relative; */
     width: 380px;
     height: 767px;
-    /* left: 6em; */
     top: 50px;
+
     @media (max-width: 600px) {
       left: 9em;
       top: -1em;

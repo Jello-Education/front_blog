@@ -20,13 +20,12 @@ const TelaAssinatura: React.FC = () => {
       <Container>
         <Header />
         <SEO title="TelaAssinatura" />
-        <Titulo>
-          <div>
-            <img
-              src="/assinatura-background.svg"
-              alt="Imagem de pessoas felizes por terminarem um curso da jello"
-            />
-          </div>
+        {/* <Titulo>
+          <img
+            src="/assinatura-background.svg"
+            alt="Imagem de pessoas felizes por terminarem um curso da jello"
+          />
+
           <div>
             <h2>Faça curso online com a gente</h2>
             <p>
@@ -40,48 +39,50 @@ const TelaAssinatura: React.FC = () => {
               </div>
             </Botao>
           </div>
-        </Titulo>
+        </Titulo> */}
 
-        <div className="TitlePlans">
-          <h1>
-            Comece a aprender agora mesmo!
-            <br /> Conheça nossos planos:
-          </h1>
+        <div className="content">
+          <div className="TitlePlans">
+            <h1>
+              Comece a aprender agora mesmo!
+              <br /> Conheça nossos planos:
+            </h1>
+          </div>
+          <Plans>
+            <SubscriptionGiftCard
+              title="STANDARD"
+              price="GRÁTIS"
+              background="primary"
+              marginMedium=""
+            />
+            <SubscriptionGiftCard
+              title="ESPINELO"
+              price="R$ 25,90"
+              background="dafault"
+              marginMedium="medium"
+            />
+
+            <SubscriptionGiftCard
+              title="PALADIUM"
+              price="R$ 35,90"
+              background="primary"
+              marginMedium=""
+            />
+          </Plans>
+          <Extra>
+            <img
+              className="extra-01"
+              src="/Assista on quiser.svg"
+              alt="Imagem representando diversos tipos de dispositivos de acesso a internet"
+            />
+            <div className="divider"></div>
+            <img
+              className="extra-02"
+              src="/Economize dados.svg"
+              alt="Imagem representando que é possivel baixar as aulas em seu dispositivo"
+            />
+          </Extra>
         </div>
-        <Plans>
-          <SubscriptionGiftCard
-            title="STANDARD"
-            price="GRÁTIS"
-            background="primary"
-            marginMedium=""
-          />
-          <SubscriptionGiftCard
-            title="ESPINELO"
-            price="R$ 25,90"
-            background="dafault"
-            marginMedium="medium"
-          />
-
-          <SubscriptionGiftCard
-            title="PALADIUM"
-            price="R$ 35,90"
-            background="primary"
-            marginMedium=""
-          />
-        </Plans>
-        <Extra>
-          <img
-            className="extra-01"
-            src="/Assista on quiser.svg"
-            alt="Imagem representando diversos tipos de dispositivos de acesso a internet"
-          />
-
-          <img
-            className="extra-02"
-            src="/Economize dados.svg"
-            alt="Imagem representando que é possivel baixar as aulas em seu dispositivo"
-          />
-        </Extra>
       </Container>
       <JelloInfo />
     </>
