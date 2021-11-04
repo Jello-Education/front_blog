@@ -30,11 +30,15 @@ export const Categorie = styled.button`
   transition: all 0.3s;
 
   &:last-child{
-    margin-right: 0px;
+    
   }
 
   &:hover{
     border-color: #FD3373;
     color: #FD3373;
+  }
+
+  
+    
   }
 `;

@@ -29,3 +29,20 @@ const Creator:React.FC = () => {
 }
 
 export default Creator;
+
+export const getServerSideProps=  () => {
+  const creatorToken = ""
+
+  if (!creatorToken) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      }
+    }
+  }
+
+  return {
+    props: {}
+  }
+}
