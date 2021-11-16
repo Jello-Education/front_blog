@@ -4,14 +4,12 @@ import { Container, Botao } from "./styles";
 
 export interface BackgroundColor {
   variant: string;
-  margin: string;
 }
 
 interface Props {
   title: string;
   price: string;
   background: string;
-  marginMedium: string;
 }
 
 const itemPlan = [
@@ -23,14 +21,9 @@ const itemPlan = [
   },
 ];
 
-export function SubscriptionGiftCard({
-  title,
-  price,
-  background,
-  marginMedium,
-}: Props) {
+export function SubscriptionGiftCard({ title, price, background }: Props) {
   return (
-    <Container variant={background} margin={marginMedium}>
+    <Container variant={background}>
       <div className="planoBranco">
         {" "}
         <h2 className="planoTitulo">{title}</h2>

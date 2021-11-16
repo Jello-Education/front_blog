@@ -3,7 +3,8 @@ import { BackgroundColor } from "./index";
 
 export const Container = styled.div<BackgroundColor>`
   width: 330px;
-  margin: ${({ margin }) => (margin === "medium" ? "0 32px" : "0")};
+  margin: 0 10px;
+
   li {
     font-family: Montserrat;
     font-style: normal;
@@ -18,6 +19,7 @@ export const Container = styled.div<BackgroundColor>`
         ? "#FFFFFF"
         : "#FFFFFF"};
   }
+
   img {
     position: relative;
     top: 3.5px;
@@ -70,6 +72,28 @@ export const Container = styled.div<BackgroundColor>`
     text-shadow: 0px 2px 1px #000000;
     margin-bottom: 20px;
   }
+
+  @media (max-width: 1100px) {
+    width: 270px;
+
+    .planoTitulo {
+      font-size: 38px;
+    }
+    .planoPreco {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 890px) {
+    width: 330px;
+
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.3 em;
+    }
+  }
 `;
 
 export const Botao = styled.div`
@@ -92,22 +116,13 @@ export const Botao = styled.div`
     font-size: 32px;
     line-height: 48px;
     color: #282828;
+  }
 
-    @media (max-width: 600px) {
-      width: 320px;
-      height: 68px;
-
-      margin: 2.5em 0;
-
-      h2 {
-        font-size: 35px;
-      }
-    }
-    @media (min-width: 764px) {
-      top: 138em;
-      h2 {
-        font-size: 35px;
-      }
+  @media (max-width: 890px) {
+    margin-top: 10px;
+    button {
+      margin-bottom: 30px;
+      font-size: 28px;
     }
   }
 `;
