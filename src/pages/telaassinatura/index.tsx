@@ -53,23 +53,20 @@ const TelaAssinatura: React.FC = () => {
               title="STANDARD"
               price="GRÁTIS"
               background="primary"
-              marginMedium=""
             />
             <SubscriptionGiftCard
               title="ESPINELO"
               price="R$ 25,90"
               background="dafault"
-              marginMedium="medium"
             />
 
             <SubscriptionGiftCard
               title="PALADIUM"
               price="R$ 35,90"
               background="primary"
-              marginMedium=""
             />
           </Plans>
-          <Extra>
+          {/* <Extra>
             <img
               className="extra-01"
               src="/Assista on quiser.svg"
@@ -81,7 +78,7 @@ const TelaAssinatura: React.FC = () => {
               src="/Economize dados.svg"
               alt="Imagem representando que é possivel baixar as aulas em seu dispositivo"
             />
-          </Extra>
+          </Extra> */}
         </div>
       </Container>
       <JelloInfo />

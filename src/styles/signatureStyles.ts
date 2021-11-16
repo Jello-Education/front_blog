@@ -17,6 +17,24 @@ export const Container = styled.div`
     font-size: 20px;
     font-family: Montserrat;
   }
+
+  @media (max-width: 700px) {
+    .content {
+      h1 {
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: -40px;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .content {
+      h1 {
+        font-size: 30px;
+      }
+    }
+  }
 `;
 
 export const Titulo = styled.div`
@@ -56,12 +74,7 @@ export const Titulo = styled.div`
     line-height: 59px;
     text-align: center;
     letter-spacing: 0.015em;
-    @media (min-width: 764px) {
-      margin: 0.5em;
-      position: relative;
-      left: 9em;
-      width: 18em
-}
+
 @media (min-width: 1024px) {
   left: 6em;
 }
@@ -136,9 +149,17 @@ export const Botao = styled.div`
 `;
 
 export const Plans = styled.div`
+  width: 100%;
   display: flex;
   max-width: 1200px;
   justify-content: center;
+
+  @media (max-width: 890px) {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 `;
 
 export const Extra = styled.div`
