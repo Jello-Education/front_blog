@@ -2952,6 +2952,11 @@ json5@^2.1.2:
   dependencies:
     minimist "^1.2.5"
 
+keen-slider@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/keen-slider/-/keen-slider-5.5.1.tgz#1493f552eadf0f5b8229defd83c626eb6dd58c13"
+  integrity sha512-QXGZGt5Hbe0YufR/RYbOG03MmOk43RQEXqkkSvjr8ZS67sVR7LRp5RIvJALfjl+A7BnHNr1wd1QBOemwy65Lfw==
+
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -4882,6 +4887,11 @@ tiny-invariant@^1.0.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.2.0.tgz#a1141f86b672a9148c72e978a19a73b9b94a15a9"
   integrity sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==
+
+tiny-slider@^2.9.4:
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/tiny-slider/-/tiny-slider-2.9.4.tgz#dd5cbf3065f1688ade8383ea6342aefcba22ccc4"
+  integrity sha512-LAs2kldWcY+BqCKw4kxd4CMx2RhWrHyEePEsymlOIISTlOVkjfK40sSD7ay73eKXBLg/UkluAZpcfCstimHXew==
 
 tiny-warning@^1.0.0, tiny-warning@^1.0.3:
   version "1.0.3"
