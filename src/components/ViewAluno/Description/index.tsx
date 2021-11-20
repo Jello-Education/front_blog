@@ -63,7 +63,7 @@ const Description: React.FC = () => {
             <div className="inputs">
               <label>Assunto:</label>
               <input type="text" />
-              <label>Mensagem:</label>
+             <label>Mensagem:</label>
               <input type="text" />
             </div>
 

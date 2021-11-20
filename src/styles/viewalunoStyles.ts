@@ -72,6 +72,22 @@ export const Anotations = styled.div`
       margin-top: 1.2rem;
       line-height: 1.5rem;
     }
+
+    @media (min-width: 650px) and (max-width: 900px) {
+      margin-left: 2rem;
+    }
+    
+    @media (max-width: 400px) {
+      margin-left: 1rem;
+      width: 135%;
+
+      p {
+        font-size: 1.3rem;
+      }
+
+    }
+
+    
 `;
 
 export const Progress = styled.div`
@@ -91,5 +107,19 @@ export const Progress = styled.div`
     margin-left: 20px;
     margin-bottom: 10px;
   }
+
+  
+  @media (min-width: 650px) and (max-width: 900px) {
+      
+      margin-left: 2rem;
+    }
+
+  @media (max-width: 400px) {
+
+    margin-left: 1rem;
+    width: 136%;
+
+  }
+  
 `;
 

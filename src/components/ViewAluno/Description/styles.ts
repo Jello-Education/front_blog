@@ -44,6 +44,31 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (min-width: 650px) and (max-width: 900px) {
+
+      h1 {
+        margin-right: 39rem;
+      }
+  }
+
+  @media (min-width: 300px) and (max-width: 400px) {
+
+      h1 {
+        margin-right: 18rem;
+      }
+
+      div.line {
+
+        margin-right: -11rem;
+        
+      >button {
+        font-size: 1.6rem;
+      }  
+    }
+
+  }
+
 `;
 
 export const Texts = styled.div`
@@ -66,6 +91,32 @@ export const Texts = styled.div`
         width: 35rem;
       }
   }
+
+  @media (min-width: 650px) and (max-width: 900px) {
+
+      h4 {
+
+        margin-left: 2rem;
+    }
+
+      p {
+        width:38rem;
+        margin-left: 5rem;
+      }
+  }
+
+    @media (min-width: 300px) and (max-width: 400px) {
+
+      h4 {
+        font-size: 1.5rem;
+        margin-left: 10rem;
+      }
+
+      p {
+        width: 37rem;
+        font-size: 11.5px;
+      }
+    }
 `;
 
 export const Duvida = styled.div`
@@ -122,7 +173,42 @@ export const Duvida = styled.div`
       &:hover{
         opacity: 0.8;
       }
+    } 
+  }
+
+  @media (min-width: 650px) and (max-width: 900px) {
+    div.inputs {
+      
+      input {
+        margin-left: 7rem;
+      }
+
+      label {
+        margin-right: 11rem;
+      }
+
+      button {
+        margin-top: 6rem
+      }
     }
+    
+  }
+
+  @media (min-width: 300px) and (max-width: 400px) {
+
+    div.inputs {
+
+    
+    input {
+      width: 136%;
+      margin-left: 52px;
+    }
+
+   }
+
+   div.buttons {
+     margin-left: 8rem;
+   }
   }
 `;
 
@@ -193,6 +279,26 @@ export const Chat = styled.div`
       font-size: 1.1rem;
       color: #000;
 
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 400px) {
+    width: 143%;
+
+    div.right {
+      width: 40%;
+    }
+
+    div.buttons {
+      width: 90%;
+      font-size: 1.5rem;
+      margin-left: 6rem;
+    }
+  }
+
+  @media (min-width: 650px) and (max-width: 900px) {
+    div.right {
+      width: 50%;
     }
   }
 `;
