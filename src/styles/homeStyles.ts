@@ -1,12 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import InputComponent from '../components/Shared/InputComponent';
-import ButtonComponent from '../components/Shared/ButtonComponent';
+import InputComponent from "../components/Shared/InputComponent";
+import ButtonComponent from "../components/Shared/ButtonComponent";
 
 export const Container = styled.div`
   position: relative;
   display: block;
   height: 100vh;
+
+  @media (max-width: 320px) {
+    width: 95vh;
+  }
 `;
 
 export const Background = styled.div`
@@ -96,14 +100,14 @@ export const PagesNavContainer = styled.div`
   background: #fafafa;
 
   .selected-page {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #fd3373;
   }
 
   span {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #282828;
@@ -135,8 +139,7 @@ export const PagesNavContainer = styled.div`
 
 export const Input = styled(InputComponent)``;
 
-export const Button = styled(ButtonComponent)`
-`;
+export const Button = styled(ButtonComponent)``;
 
 export const Footer = styled.footer`
   width: 100%;
@@ -150,7 +153,7 @@ export const Footer = styled.footer`
     margin-bottom: 20px;
 
     span {
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
       font-weight: 500;
       font-size: 18px;
       color: #282828;

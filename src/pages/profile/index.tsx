@@ -24,3 +24,20 @@ const profile: React.FC = () => {
 }
 
 export default profile;
+
+export const getServerSideProps=  () => {
+  const userToken = ""
+
+  if (!userToken) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false,
+      }
+    }
+  }
+
+  return {
+    props: {}
+  }
+}

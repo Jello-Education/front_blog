@@ -1,10 +1,10 @@
-import styled from 'styled-components';
-import { shade } from 'polished';
+import styled from "styled-components";
+import { shade } from "polished";
 
 export const Container = styled.button`
   display: flex;
   flex: 1;
-  width: 34rem;
+  width: 100%;
   height: 4rem;
 
   background: #fd3373;
@@ -22,6 +22,6 @@ export const Container = styled.button`
   transition: background-color 0.2s;
 
   &:hover {
-    background: ${shade(0.2, '#fd3373')};
+    background: ${shade(0.2, "#fd3373")};
   }
 `;

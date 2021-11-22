@@ -11,11 +11,5 @@ export const Container = styled.div`
     color: #282828;
     text-decoration: none;
   }
-
-  div {
-    width: 14px;
-    height: 3px;
-    background: #fd3373;
-    margin-left: 1px;
-  }
+ 
 `;

@@ -7,11 +7,10 @@ const Section: React.FC = () => {
   return (
     <Container>
       <Background>
-        <img src="./courses-bg.svg"/>
+        <img src="./courses-bg.png"/>
       </Background>
       <Texts>
         <h1>Estudar pode ser <b>divertido!</b></h1>
-
         <Input>
           <input placeholder="O que você deseja aprender hoje?" type="text"/>
           <Icon>
@@ -19,10 +18,7 @@ const Section: React.FC = () => {
           </Icon>
         </Input>
       </Texts>
-        <img
-          src="/courses-example-img.svg"
-          className="img-land"
-        />
+      
     </Container>
   );
 }

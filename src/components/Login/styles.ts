@@ -1,26 +1,24 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const LoginSenha = styled.div `
-
+export const LoginSenha = styled.div`
   .input100 {
     font-family: Poppins-Regular;
     font-size: 15px;
     color: #666666;
     line-height: 1.2;
-   
+
     display: block;
     width: 100%;
     height: 45px;
     background: transparent;
-    padding-left:44px;;
+    padding-left: 44px;
   }
-  
+
   .password-icon {
-    color: #FD3373;
+    color: #fd3373;
     position: absolute;
-    top: 421px;
-    right: 7px;
+    top: 418px;
+    right: 20px;
     cursor: pointer;
   }
-  
-  `
+`;

@@ -1,32 +1,34 @@
-import React from 'react';
+import React from "react";
 
-import Header from '../../components/Shared/Header';
-import JelloInfo from '../../components/Shared/JelloInfo';
-import SEO from '../../components/Seo';
-import Courses from '../../components/About/Courses';
+import Header from "../../components/Shared/Header";
+import JelloInfo from "../../components/Shared/JelloInfo";
+import SEO from "../../components/Seo";
+import Courses from "../../components/About/Courses";
 
 import {
   Container,
+  Contents,
   AboutJelloDetails,
-} from '../../styles/aboutStyles';
-
+} from "../../styles/aboutStyles";
 
 const AboutJello: React.FC = () => {
   return (
-    <Container>
-      <Header />
+    <>
+      <Container>
+        <Header />
 
-      <SEO title="Sobre"/>
+        <SEO title="Sobre" />
 
-      <AboutJelloDetails>
-        <img src="/about-banner.svg" alt="banner"/>
-      </AboutJelloDetails>
+        <AboutJelloDetails>
+          <img src="/about-banner.svg" alt="banner" />
+        </AboutJelloDetails>
 
-
-      <Courses />
-
+        <Contents>
+          <Courses />
+        </Contents>
+      </Container>
       <JelloInfo />
-    </Container>
+    </>
   );
 };
 

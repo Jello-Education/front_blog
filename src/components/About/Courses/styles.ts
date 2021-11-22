@@ -1,26 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   display: block;
-  margin-top: 40px;
+  /* margin-top: 10px; */
 
-  h2 {
+  */ h2 {
     font-size: 2.5rem;
   }
 
-  p, h3 {
+  p,
+  h3 {
     font-size: 1.3rem;
-  }
-
-  img {
-    width: 17rem;
-    height: 16rem;
-  }
-
-  @media(max-width: 600px) {
-    p, h3 {
-      width: 400px !important;
-    }
   }
 
   .first-description {
@@ -28,47 +18,82 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 74px;
+    margin-bottom: 34px;
 
-    @media(max-width: 1100px) {
+    h2 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      color: #282828;
+      margin-bottom: 26px;
+    }
+
+    p {
+      width: 635px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 400;
+      color: #282828;
+    }
+
+    img {
+      height: 400px;
+      width: 300px;
+    }
+
+    @media (max-width: 1100px) {
       justify-content: center;
-      text-align: center;
+      /* text-align: center; */
+      display: inline;
 
-      img {
-        display: none;
+      h2 {
+        margin-bottom: 16px;
       }
 
-      .courses-left-first-description {
-        margin: 0!important;
-        padding: 0 !important;
+      p {
+        width: 100%;
+      }
+    }
+
+    @media (max-width: 500px) {
+      img {
+        /* margin-top: -90px; */
       }
     }
 
     .courses-left-first-description {
       display: block;
-      padding-left: 24px;
-      margin-right: 194px;
-
-      h2 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        color: #282828;
-        margin-bottom: 26px;
-      }
-
-      p {
-        width: 635px;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 400;
-        color: #282828;
-      }
+      /* padding-left: 24px;
+      margin-right: 194px; */
     }
 
     .courses-right-first-description {
       padding-right: 24px;
+      text-align: center;
 
       img {
-        width: 100%;
+        /* width: 403px;
+        height: 173px; */
+      }
+
+      /* @media (max-width: 1100px) {
+        width: 0;
+        height: 0;
+      } */
+    }
+
+    .courses-img {
+      padding-right: 24px;
+      text-align: center;
+
+      img {
+        width: 403px;
+        height: 173px;
+      }
+
+      @media (max-width: 500px) {
+        img {
+          width: 303px;
+          height: 173px;
+        }
       }
     }
   }
@@ -81,7 +106,7 @@ export const Container = styled.div`
     align-items: center;
     margin-bottom: 74px;
 
-    @media(max-width: 1100px) {
+    @media (max-width: 1100px) {
       justify-content: center;
       text-align: center;
 
@@ -95,7 +120,28 @@ export const Container = styled.div`
       padding-right: 21px;
 
       img {
-        width: 100%;
+        width: 500px;
+        height: 328px;
+      }
+
+      @media (max-width: 1100px) {
+        width: 0px;
+        padding-right: 0px;
+      }
+    }
+
+    .courses-left-img {
+      width: 687px;
+      padding-right: 21px;
+
+      img {
+        width: 500px;
+        height: 328px;
+      }
+
+      @media (max-width: 1100px) {
+        width: 0px;
+        padding-right: 0px;
       }
     }
 
@@ -104,24 +150,44 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
 
+      h2 {
+        margin-top: 30px;
+      }
+
       @media (max-width: 1100px) {
-        text-align: center;
+        text-align: justify;
       }
 
       h2 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-weight: 700;
         color: #282828;
         margin-bottom: 26px;
+        position: relative;
+        /* left: -2rem; */
       }
 
       h3 {
         width: 635px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-weight: 400;
         color: #282828;
         align-self: flex-end;
       }
+    }
+  }
+
+  @media (max-width: 1100px) {
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 16px;
+    }
+
+    p {
+      width: 100%;
+      text-align: justify;
+      line-height: 32px;
+      font-size: 1.5rem;
     }
   }
 `;
