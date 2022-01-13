@@ -70,10 +70,22 @@ div {
         }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1400px) {
   div {
-    width: 72rem;
-    left: 15px;
+    width: 73rem;
+    left: 9px;
+  
+}
+
+  .Scrollbar {
+    max-width: 300px; 
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  div {
+    width: 63rem;
+    left: 5px;
   
 }
 
@@ -97,7 +109,8 @@ div {
 @media (max-width: 500px) {
   div {
     position: relative;
-    left: 10%
+    left: 9%;
+    width: 104%;
   }
 }
 
@@ -173,11 +186,19 @@ p {
       background: white;
   }
 
-  
-
-  @media (min-width: 900px) {
+  @media (min-width: 1400px) {
     .container {
-      left: -25.5rem;
+      left: -27rem;
+    }
+    p {
+      font-size: 20px;
+  
+    }
+  }
+
+  @media (min-width: 900px) and (max-width: 1200px) {
+    .container {
+      left: -21rem;
     }
     p {
       font-size: 20px;
@@ -200,7 +221,7 @@ p {
   @media (max-width: 500px) {
     .container {
       position: relative; 
-      left: 50px;
+      left: 15px;
     }
   }
 
