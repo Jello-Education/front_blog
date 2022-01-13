@@ -82,9 +82,9 @@ div {
   }
 }
 
-@media (min-width: 900px) and (max-width: 1380px) {
+@media (min-width: 900px) and (max-width: 1366px) {
   div {
-    width: 63rem;
+    width: 70rem;
     left: 5px;
   
 }
@@ -196,9 +196,9 @@ p {
     }
   }
 
-  @media (min-width: 900px) and (max-width: 1380px) {
+  @media (min-width: 900px) and (max-width: 1366px) {
     .container {
-      left: -18rem;
+      left: -26rem;
     }
     p {
       font-size: 20px;
