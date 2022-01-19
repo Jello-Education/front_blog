@@ -47,13 +47,46 @@ div {
                 }
         }
 
+        p, li, h2 {
+          margin-top: 15px;
+          list-style-type: none;
+          text-align: justify;
+        }
 
+        h2 {
+          font-size:20px; 
+        }
+        
+        table{
+          margin-top: 10px ;
+        }
+        td  {
+          border: 1px solid ;
+          padding: 50px 50px;
+        }
 
+        .textrodape {
+          font-size: 12px;
+        }
 }
 
-@media (max-width: 900px) {
+@media (min-width: 1400px) {
   div {
-    max-width: 350px; 
+    width: 73rem;
+    left: 9px;
+  
+}
+
+  .Scrollbar {
+    max-width: 300px; 
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1366px) {
+  div {
+    width: 70rem;
+    left: 5px;
+  
 }
 
   .Scrollbar {
@@ -61,10 +94,11 @@ div {
   }
 }
       
-@media (max-width: 768px) {
+@media (max-width: 880px) and (min-width: 768px) {
 
   div {
     max-width: 650px; 
+    left: 1rem;
 }
 
   .Scrollbar {
@@ -72,10 +106,11 @@ div {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 500px) {
   div {
     position: relative;
-    left: 7%
+    left: 9%;
+    width: 104%;
   }
 }
 
@@ -151,31 +186,44 @@ p {
       background: white;
   }
 
-
-  @media screen and (max-width: 900px) {
+  @media (min-width: 1400px) {
+    .container {
+      left: -27rem;
+    }
     p {
       font-size: 20px;
   
     }
   }
 
-  @media (max-width: 425px) {
+  @media (min-width: 900px) and (max-width: 1366px) {
     .container {
-      position: relative; 
-      left: 50px;
+      left: -26rem;
+    }
+    p {
+      font-size: 20px;
+  
     }
   }
 
-  @media (max-width: 320px) {
-
+  @media (max-width: 850px) and (min-width: 700px) {
     .container {
-      position: relative; 
-      left: 20px;
+      left: -12.5rem;
     }
-    
+   
+  
     p {
       font-size: 18px;
     }
   }
+
+
+  @media (max-width: 500px) {
+    .container {
+      position: relative; 
+      left: 15px;
+    }
+  }
+
 
 `
