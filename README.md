@@ -5,7 +5,6 @@
     <img src="src/assets/mockup-blog-Jello.png" width="50%" height="50%" max-width:100% >
   </p>
 
-
 <h3 align="center">
   Blog da Jello em desenvolvimento.
 </h3>
@@ -23,19 +22,23 @@
 
 Seguem as configurações neessárias para visualizar a aplicação em sua máquina.
 
--  [Git](https://git-scm.com);
--  [Node](https://nodejs.org/);
--  [Yarn](https://yarnpkg.com/).
+- [Git](https://git-scm.com);
+- [Node](https://nodejs.org/);
+- [Yarn](https://yarnpkg.com/).
 
 ### :arrow_down_small: Clonando o repositório
+
 1. Pelo terminal, acesse o diretório em que deseja ter o repositório clonado e execute o comando a seguir.
+
 ```bash
 # clonando o repositório
 git clone https://github.com/Jello-Education/front_blog
 ```
 
 ### :beginner: Iniciando a aplicação
+
 1. Pelo terminal, acesse a pasta do repositório clonado e execute os comandos abaixo.
+
 ```bash
 # instalando as dependências
 yarn install
@@ -53,7 +56,6 @@ Tarefas / funcionalidades a fazer ou desenvolver:
 - Página de conteúdo do post após ser selecionado;
 - <s>Página "Sobre a Jello"</s> :heavy_check_mark:.
 
-
 ### :wrench: Tecnologias | Ferramentas | Recursos
 
 Esse projeto foi desenvolvido utilizando os seguintes recursos:
@@ -70,6 +72,7 @@ Esse projeto foi desenvolvido utilizando os seguintes recursos:
 -  [TypeScript](https://www.typescriptlang.org/).
 
 ### :memo: License
+
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/Jello-Education/front_blog/blob/master/LICENSE) para mais informações.
 
 ---
