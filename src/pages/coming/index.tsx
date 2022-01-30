@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import Header from "../../components/Shared/Header";
-import NewsletterSection from "../../components/Shared/NewsletterSection";
-import JelloInfo from "../../components/Shared/JelloInfo";
-import SEO from "../../components/Seo";
+import Header from '../../components/Shared/Header';
+import NewsletterSection from '../../components/Shared/NewsletterSection';
+import JelloInfo from '../../components/Shared/JelloInfo';
+import SEO from '../../components/Seo';
 
-import { Container, ComingSoonContainer } from "../../styles/comingStyles";
+import { Container, ComingSoonContainer } from '../../styles/comingStyles';
 
 const Coming: React.FC = () => {
   return (
