@@ -1,14 +1,76 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
-import { Container, Content, SubContent, SocialMediaContainer, Icon, Detail, Texts, Main, Bottom } from './styles';
-import { FaInstagram, FaLinkedinIn, FaFacebookF, FaTwitter, FaYoutube, FaApple, FaGooglePlay, FaPhoneAlt } from 'react-icons/fa'
+import {
+  Container,
+  Content,
+  SubContent,
+  SocialMediaContainer,
+  Icon,
+  Detail,
+  Texts,
+  Main,
+  Bottom,
+} from "./styles";
+import {
+  FaInstagram,
+  FaLinkedinIn,
+  FaFacebookF,
+  FaTwitter,
+  FaYoutube,
+  FaApple,
+  FaGooglePlay,
+  FaPhoneAlt,
+} from "react-icons/fa";
 
 const JelloInfo: React.FC = () => {
   return (
     <Container>
       <Main>
         <Content>
+          <ul className="left">
+            <li>
+              <b>Nossas redes</b>
+            </li>
+            <li>
+              <SocialMediaContainer>
+                <Icon>
+                  <FaFacebookF size={15} color="#fff" />
+                </Icon>
+
+                <Icon>
+                  <FaLinkedinIn size={15} color="#fff" />
+                </Icon>
+
+                <Icon>
+                  <FaInstagram size={15} color="#fff" />
+                </Icon>
+
+                <Icon>
+                  <FaTwitter size={15} color="#fff" />
+                </Icon>
+
+                <Icon>
+                  <FaYoutube size={15} color="#fff" />
+                </Icon>
+              </SocialMediaContainer>
+            </li>
+            <li>
+              <b>Nossos apps</b>
+            </li>
+            <li>
+              <SocialMediaContainer>
+                <Icon>
+                  <FaApple size={15} color="#fff" />
+                </Icon>
+
+                <Icon>
+                  <FaGooglePlay size={15} color="#fff" />
+                </Icon>
+              </SocialMediaContainer>
+            </li>
+          </ul>
+
           <ul className="left">
             <li>
               <b>Educação</b>
@@ -27,8 +89,8 @@ const JelloInfo: React.FC = () => {
             </li>
           </ul>
 
-          <ul className="middle">
-          <li>
+          <ul className="left">
+            <li>
               <b>JELLO</b>
             </li>
             <li>
@@ -42,7 +104,7 @@ const JelloInfo: React.FC = () => {
             </li>
           </ul>
 
-          <ul className="right">
+          <ul className="left">
             <li>
               <b>Suporte</b>
             </li>
@@ -63,43 +125,10 @@ const JelloInfo: React.FC = () => {
             </li>
           </ul>
         </Content>
-        
-        <b className="subTitle">Nossas redes e Apps</b>
+
         <SubContent>
-          <SocialMediaContainer>
-
-            <Icon> 
-              <FaFacebookF size={30} color="#fff"/>
-            </Icon>
-
-            <Icon>
-            <FaLinkedinIn size={30} color="#fff"/>
-            </Icon>
-            
-            <Icon>
-            <FaInstagram size={30} color="#fff"/>
-            </Icon>
-
-            <Icon>
-            <FaTwitter size={30} color="#fff"/>
-            </Icon>
-
-            <Icon>
-              <FaYoutube size={30} color="#fff"/>
-            </Icon>
-
-            <Icon>
-              <FaApple size={30} color="#fff"/>
-            </Icon>
-
-            <Icon>
-              < FaGooglePlay size={30} color="#fff"/>
-            </Icon>
-        
-          </SocialMediaContainer>
-
           <Detail>
-            <FaPhoneAlt size={50} color="#fd3373"/>
+            <FaPhoneAlt size={32} color="#fd3373" />
 
             <Texts>
               <p>Dúvidas? Sugestões</p>
@@ -108,19 +137,18 @@ const JelloInfo: React.FC = () => {
           </Detail>
 
           <Detail>
-            <Image 
-              src="/logoJelloShort.svg" 
+            <Image
+              src="/jelloLogo.svg"
               alt="landingLogo"
-              width={90}
-              height={90}
-              />
+              width={32}
+              height={32}
+            />
 
-            <Texts>
+            <Texts style={{ marginLeft: 20 }}>
               <p>Planos para empresas</p>
               <b>Saiba mais.</b>
             </Texts>
           </Detail>
-
         </SubContent>
       </Main>
 
@@ -129,6 +157,6 @@ const JelloInfo: React.FC = () => {
       </Bottom>
     </Container>
   );
-}
+};
 
 export default JelloInfo;
