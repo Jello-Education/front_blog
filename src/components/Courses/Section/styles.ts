@@ -33,27 +33,37 @@ export const Background = styled.div`
     }
 
 
-  @media (min-width: 1900px) {
+  @media (min-width: 1024px) {
     img {
     position: relative;
-      left: 70.8em;
-      top: 6.8em;
+    left: 30.8em;
+    top: 15.5em;
     }
   }
 
   @media (min-width: 768px) and (max-width: 900px) {
     img {
       position: relative;
-      left: 20.1em;
+      left: 19em;
       top: 17.7em;
       width: 64%;
     }
   }
 
-  @media (max-width: 375px) {
+  @media (min-width: 1440px) {
+    img {
+    top: 1.8em;
+    left: 32.3em;
+    width: 64%;
+    }
+    
+  }
+
+  @media (max-width: 425px) {
     img {
       position: relative;
-      top: 32.2em;
+      left: 0em;
+      top: 35.5em;
       width: 100%;
     }
   }
@@ -71,8 +81,9 @@ export const Texts = styled.div`
   
   h1{
     font-size: 3rem;
-    width: 15rem;
+    width: 19rem;
     margin-bottom: 70px;
+    margin-left: 3rem;
 
     @media (max-width: 1000px) {
       width: 300px;
@@ -80,6 +91,12 @@ export const Texts = styled.div`
 
     b{
       color: #FD3373;
+    }
+  }
+
+  @media (max-width: 425px) {
+    h1 {
+      width: 278px;
     }
   }
 `;
@@ -103,13 +120,17 @@ export const Input = styled.div`
     width: 100%;
   }
 
+  @media (min-width: 1024px) {
+    margin-right: 27em;
+  }
+
   @media (min-width: 768px) and (max-width: 900px) {
     margin-right: 0;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 425px) {
     margin-right: 0;
-    width: 31rem;
+    width: 29rem;
   }
 `;
 
