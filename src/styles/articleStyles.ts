@@ -9,6 +9,10 @@ export const Container = styled.div`
   @media (max-width: 1000px){
     text-align: center;
   }
+
+  @media (max-width: 550px) {
+    width: 133%;
+  }
 `;
 
 export const Section = styled.div`

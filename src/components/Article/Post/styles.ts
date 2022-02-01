@@ -12,6 +12,15 @@ export const Container = styled.div`
     justify-content: space-between;
     padding: 10px;
   }
+
+  @media (min-width: 1024px) {
+    width: 300px;
+    margin: 10px 21px;
+  }
+
+  @media (max-width: 550px) {
+    width: 344px;
+  }
 `;
 
 export const Title = styled.div`
