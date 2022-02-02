@@ -6,28 +6,30 @@ export const Container = styled.div`
     margin-top: 30px;
     height: 40rem;
   }
-  @media (max-width: 425px) {
-    > img {
-      margin-top: -5rem;
-    }
-  }
-
-  @media (min-width: 1024px) and (max-width: 1300px) {
-    > img {
-      height: 48rem;
-    }
-  }
 
   @media (min-width: 1440px) {
     > img {
       height: 61rem;
     }
   }
+
+  @media (min-width: 900px) and (max-width: 1400px) {
+    > img {
+      height: 56rem;
+      margin-top: -5rem;
+    }
+  }
+
+  @media (max-width: 500px) {
+    > img {
+      margin-top: -5rem;
+    }
+  }
 `;
 
 export const Info = styled.div`
   margin-top: 40px;
-  padding: 0 250px;
+  padding: -1 250px;
 
   display: flex;
   align-items: center;
