@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../../components/Shared/Header";
 import JelloInfo from "../../components/Shared/JelloInfo";
 
+import CheckBoxInput from "../../components/Shared/checked/index";
 import { Container, Input, Button } from "../../styles/registerStyles";
 
 const register: React.FC = () => {

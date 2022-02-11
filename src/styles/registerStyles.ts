@@ -29,11 +29,11 @@ export const Container = styled.div`
       left: 229px;
     }
   }
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     .title {
       left: 59px;
       top: 120px;
-      font-size: 35px;
+      font-size: 28px;
       width: 177px;
     }
   }
@@ -155,7 +155,14 @@ export const Input = styled.div`
     color: #fd3373;
   }
 
-  @media (min-width: 1440) {
+  @media (min-width: 1440px) {
+    .container {
+      width: 93px;
+      height: 21px;
+      left: 44rem;
+      top: 10.1rem;
+    }
+
     .lineText {
       width: 65%;
       left: 20%;
@@ -177,6 +184,10 @@ export const Input = styled.div`
   }
 
   @media (min-width: 950px) and (max-width: 1400px) {
+    .container {
+      left: 49%;
+    }
+    
     .lineText {
       width: 65%;
       left: 20%;
@@ -190,8 +201,7 @@ export const Input = styled.div`
     }
 
     .prof {
-      left: 50%;
-
+      left: 96%;
       top: -19px;
     }
   }
@@ -216,7 +226,7 @@ export const Input = styled.div`
     }
     .prof {
       top: -1.3rem;
-    left: -10rem;
+      left: -7rem;
     }
   }
 
@@ -249,7 +259,7 @@ export const Input = styled.div`
     }
 
     .prof {
-      left: 13rem;
+      left: 12rem;
       top: -1.8rem;
     }
   }
@@ -289,7 +299,7 @@ export const Button = styled.div`
       left: 210px;
     }
   }
-  @media (max-width: 425px) {
+  @media (max-width: 600px) {
     a {
       width: 214.71px;
       height: 46px;
