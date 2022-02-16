@@ -2,19 +2,20 @@ import { useState } from "react";
 
 import { Checkbox } from "./stlyes";
 
-function CheckBoxInput() {
-  const [checked, setChecked] = useState(false);
+interface CheckBoxInputProps {
+  title: string;
+  selected: boolean;
+  onChange: () => null;
+}
 
+function CheckBoxInput({ selected, title, onChange }: CheckBoxInputProps) {
   return (
     <form>
       <Checkbox>
         <div className="container">
           <label className="student">
-            <input
-              type="checkbox"
-              checked={checked}
-              onChange={(e) => setChecked(e.target.checked)}
-            />
+            {title}
+            <input type="checkbox" checked={selected} onChange={onChange} />
             <span className="checkmark"></span>
           </label>
         </div>

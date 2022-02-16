@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Header from "../../components/Shared/Header";
 import JelloInfo from "../../components/Shared/JelloInfo";
@@ -7,25 +7,29 @@ import CheckBoxInput from "../../components/Shared/checked/index";
 import { Container, Input, Button } from "../../styles/registerStyles";
 
 const register: React.FC = () => {
+  const [selectedStudent, setSelectedStudent] = useState(true);
+  const [selectedTeacher, setSelectedTeacher] = useState(false);
+
   return (
     <Container>
       <Header />
       <h1 className="title">Cadastre-se</h1>
       <Input>
-        <div className="container">
-          <label className="student">
-            Aluno(a)
-            <input type="checkbox" />
-            <span className="checkmark"></span>
-          </label>
-        </div>
-        <div className="container">
-          <label className="prof">
-            Criador(a)
-            <input type="checkbox" />
-            <span className="checkmark"></span>
-          </label>
-        </div>
+        <CheckBoxInput
+          title="Aluno(a)"
+          selected={selectedStudent}
+          defaultChecked={true}
+          onChange={(e) => {
+            setSelectedStudent(true), setSelectedTeacher(false);
+          }}
+        />
+        <CheckBoxInput
+          title="Criador(a))"
+          selected={selectedTeacher}
+          onChange={(e) => {
+            setSelectedStudent(false), setSelectedTeacher(true);
+          }}
+        />
       </Input>
 
       <Input>
