@@ -15,21 +15,24 @@ const register: React.FC = () => {
       <Header />
       <h1 className="title">Cadastre-se</h1>
       <Input>
-        <CheckBoxInput
-          title="Aluno(a)"
-          selected={selectedStudent}
-          defaultChecked={true}
-          onChange={(e) => {
-            setSelectedStudent(true), setSelectedTeacher(false);
-          }}
-        />
-        <CheckBoxInput
-          title="Criador(a))"
-          selected={selectedTeacher}
-          onChange={(e) => {
-            setSelectedStudent(false), setSelectedTeacher(true);
-          }}
-        />
+        <div className="container">
+          <CheckBoxInput
+            title="Aluno(a)"
+            selected={selectedStudent}
+            defaultChecked={true}
+            onChange={(e) => {
+              setSelectedStudent(true), setSelectedTeacher(false);
+            }}
+          />
+
+          <CheckBoxInput
+            title="Criador(a)"
+            selected={selectedTeacher}
+            onChange={(e) => {
+              setSelectedStudent(false), setSelectedTeacher(true);
+            }}
+          />
+        </div>
       </Input>
 
       <Input>
@@ -71,11 +74,12 @@ const register: React.FC = () => {
       </Input>
       <Input>
         <h1>Senha</h1>
-        <input className="lineText" type="text" placeholder="********" />
+        <input className="lineText" type="password" placeholder="********" />
+        <i className="bi bi-eye-slash" id="togglePassword"></i>
       </Input>
       <Input>
         <h1>Confirmar senha</h1>
-        <input className="lineText" type="text" placeholder="********" />
+        <input className="lineText" type="password" placeholder="********" />
       </Input>
       <Button>
         <a>Concluir</a>

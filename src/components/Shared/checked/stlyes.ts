@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Checkbox = styled.div`
   .container {
-    display: block-inline;
+    display: inline-block;
     position: relative;
     width: 80px;
     height: 21px;
@@ -15,18 +15,6 @@ export const Checkbox = styled.div`
     -ms-user-select: none;
     user-select: none;
   }
-
-  .student {
-    position: relative;
-    left: 1.5rem;
-  }
-
-  .prof {
-    position: relative;
-    left: 10rem;
-    top: -1.2rem;
-  }
-
   .container input {
     position: absolute;
     opacity: 0;
@@ -66,24 +54,7 @@ export const Checkbox = styled.div`
     background: #fd3373;
   }
 
-  .lineText {
-    position: relative;
-    width: 690px;
-    height: 0px;
-    left: 340px;
-    top: 10rem;
-
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: none;
-    border-bottom: 2px solid #fd98b8;
-
-    ::placeholder {
-      font-size: 20px;
-      line-height: 15px;
-      color: #bdbdbd;
-
-      /* identical to box height */
-    }
+  
+  
   }
 `;

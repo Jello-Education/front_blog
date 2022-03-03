@@ -20,19 +20,21 @@ export const Container = styled.div`
 
   @media (min-width: 950px) and (max-width: 1500px) {
     .title {
-      left: 40%;
+      top: 9rem;
+      left: 34rem;
     }
   }
 
   @media (min-width: 700px) and (max-width: 900px) {
     .title {
+      top: 8rem;
       left: 229px;
     }
   }
   @media (max-width: 600px) {
     .title {
       left: 59px;
-      top: 120px;
+      top: 104px;
       font-size: 28px;
       width: 177px;
     }
@@ -41,12 +43,12 @@ export const Container = styled.div`
 
 export const Input = styled.div`
   .container {
-    display: block-inline;
+    display: inline-flex;
     position: relative;
-    width: 80px;
+    width: 130px;
     height: 21px;
     left: 36rem;
-    top: 12.1rem;
+    top: 5.8rem;
     cursor: pointer;
     font-size: 22px;
     -webkit-user-select: none;
@@ -66,45 +68,6 @@ export const Input = styled.div`
     top: -1.2rem;
   }
 
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .checkmark {
-    position: absolute;
-    top: 0.2rem;
-    left: -2rem;
-    height: 21px;
-    width: 21px;
-    border: 2px solid #fd3373;
-    border-radius: 50%;
-  }
-
-  .container input:checked ~ .checkmark {
-    background-color: white;
-  }
-
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-
-  .container .checkmark:after {
-    top: 1px;
-    left: 1px;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background: #fd3373;
-  }
-
   .lineText {
     position: relative;
     width: 690px;
@@ -121,6 +84,7 @@ export const Input = styled.div`
       font-size: 20px;
       line-height: 15px;
       color: #bdbdbd;
+      padding: 0.5rem;
 
       /* identical to box height */
     }
@@ -129,8 +93,8 @@ export const Input = styled.div`
     position: absolute;
     width: 22px;
     height: 22px;
-    top: 43.6rem;
-    left: 21rem;
+    top: 192%;
+    left: 20%;
     z-index: 99;
 
     background-size: 22px 22px;
@@ -143,7 +107,7 @@ export const Input = styled.div`
     width: 276.86px;
     height: 25px;
     left: 340px;
-    top: 10rem;
+    top: 9.2rem;
     margin-top: 3rem;
 
     font-family: "Montserrat", sans-serif;
@@ -157,10 +121,9 @@ export const Input = styled.div`
 
   @media (min-width: 1440px) {
     .container {
-      width: 93px;
-      height: 21px;
-      left: 44rem;
-      top: 10.1rem;
+
+      left: 18.7rem;
+      top: 5.5rem;
     }
 
     .lineText {
@@ -168,24 +131,21 @@ export const Input = styled.div`
       left: 20%;
     }
     h1 {
-      left: 20%;
+      left: 22%;
     }
 
-    .student {
-      left: -106%;
+    .flag {
+      top:202%
     }
 
-    .prof {
-      left: 50%;
-
-      top: -19px;
-    }
+   
   }
   }
 
   @media (min-width: 950px) and (max-width: 1400px) {
     .container {
-      left: 49%;
+      top: 5rem;
+      left: 17.6rem;
     }
     
     .lineText {
@@ -193,46 +153,38 @@ export const Input = styled.div`
       left: 20%;
     }
     h1 {
-      left: 20%;
+      left: 22%;
     }
 
-    .student {
-      left: -106%;
-    }
-
-    .prof {
-      left: 96%;
-      top: -19px;
-    }
+ 
   }
 
   @media (min-width: 700px) and (max-width: 900px) {
+    .container {
+      top: 5rem;
+      left: 8.5rem;
+    }
+
     .lineText {
       width: 71%;
-
       left: 105px;
     }
 
     h1 {
-      left: 106px;
+      left: 131px;
     }
 
     .flag {
-      left: 7rem;
+      left: 14%;
     }
 
-    .student {
-      left: -18.5rem;
-    }
-    .prof {
-      top: -1.3rem;
-      left: -7rem;
-    }
+
   }
 
   @media (max-width: 600px) {
     .container {
-      left: 6rem;
+      top: 5.5rem;
+      left: 1.5rem;
     }
 
     .lineText {
@@ -245,7 +197,7 @@ export const Input = styled.div`
     }
 
     h1 {
-      left: 26px;
+      left: 47px;;
       font-size: 18px;
     }
 
@@ -254,14 +206,7 @@ export const Input = styled.div`
       left: 2rem;
     }
 
-    .student {
-      left: -1.5rem;
-    }
-
-    .prof {
-      left: 12rem;
-      top: -1.8rem;
-    }
+   
   }
 `;
 export const Button = styled.div`
