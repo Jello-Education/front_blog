@@ -44,7 +44,9 @@ const register: React.FC = () => {
         />
       </Input>
       <Input>
-        <h1>Nome Social(apelido)</h1>
+        <h1>
+          Nome Social<small>(apelido)</small>
+        </h1>
         <input
           className="lineText"
           type="text"

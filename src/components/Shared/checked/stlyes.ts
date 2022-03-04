@@ -1,19 +1,7 @@
 import styled from "styled-components";
 
 export const Checkbox = styled.div`
-  .container {
-    display: inline-block;
-    position: relative;
-    width: 80px;
-    height: 21px;
-    left: 36rem;
-    top: 12.1rem;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+
   }
   .container input {
     position: absolute;
