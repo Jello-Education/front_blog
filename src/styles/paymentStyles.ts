@@ -5,9 +5,9 @@ export const Container = styled.div`
 
   .progress {
     position: absolute;
-    top: 15% ;
-    left: 31%;
-  }
+    top: 29%;
+    left: 29%;
+}
   .title {
     position: relative;
     width: 40rem;
@@ -64,22 +64,83 @@ export const Container = styled.div`
     width: 100%;
   }
 
-  @media (min-width: 950px) and (max-width: 1500px) {
+  @media (min-width: 1440px) {
     .title {
       top: 9rem;
       left: 23rem;
     }
+
+    .subTitle {
+      left: 30.5rem;
+      top: 11rem;
+    }
+
+    .container {
+      width: 26em;
+      left: 31rem;
+
+    }
+    .footer {
+      top: 11.9rem;
+    }
+  }
+
+  @media (min-width: 950px) and (max-width: 1400px) {
+   .progress {
+    left: 26%;
+    top: 15% ;
+   }
+    .title {
+      top: 9rem;
+      left: 18rem;
+    }
+
+    .subTitle {
+      left: 25.5rem;
+      top: 11rem;
+    }
+
+    .container {
+      width: 26em;
+      left: 26rem;
+
+
+    }
+    .footer {
+      top: 12.9rem;
+    }
   }
 
   @media (min-width: 700px) and (max-width: 900px) {
+    .progress {
+      display: none;
+    }
+    
     .title {
       top: 8rem;
-      left: 229px;
+      left: 7rem;
+    }
+
+    .subTitle {
+      left: 15.5rem;
+    }
+
+    .container {
+      width: 26em;
+      left: 15rem;
+
+    }
+    .footer {
+      top: 12.9rem;
     }
   }
   @media (max-width: 600px) {
+    .progress {
+      display: none;
+    }
+    
     .title {
-      left: -13px;
+    left: -19px;
      top: 104px;
      font-size: 15px;
      margin-left: 68px;
@@ -88,14 +149,25 @@ export const Container = styled.div`
     .subTitle {
       width: 13rem;
       font-size: 1rem;
-      left: 7.5rem;
+      left: -1.5rem;
+      margin-left: 88px;
     }
+
+    .icon {
+      padding: 0 ;
+      margin-right: 8px;
+    }
+
     .container {
       width: 19em;
      left: -1rem;
      padding-bottom: 3rem;
      margin-left: 57px;
     }
+    .footer {
+      top: 17.7rem;
+    }
+
   }
 `;
 
@@ -172,17 +244,6 @@ export const Input = styled.div`
     border-top-color: #cccccc;
   }
 
-  .student {
-    position: relative;
-    left: 1.5rem;
-  }
-
-  .prof {
-    position: relative;
-    left: 10rem;
-    top: -1.2rem;
-  }
-
   .lineText {
     position: relative;
     width: 690px;
@@ -225,10 +286,20 @@ export const Input = styled.div`
     font-size: 10px;
   }
 
+  .checkTerms b {
+    position: relative;
+    font-size: 18px;
+    color: #fd3373;
+  }
+
   @media (min-width: 1440px) {
     .container {
-      left: 18.7rem;
-      top: 5.5rem;
+      left: 28.4rem;
+      top: 10rem;
+    }
+
+    .select select {
+      width: 60rem;
     }
 
     .lineText {
@@ -237,13 +308,27 @@ export const Input = styled.div`
     }
     h1 {
       left: 22%;
+    }
+
+    .checkTerms b {
+      top: 12.4rem;
+      left: 35.8rem;
+      font-size: 25px;
     }
   }
 
   @media (min-width: 950px) and (max-width: 1400px) {
     .container {
-      top: 8rem;
-      left: 10.8rem;
+      top: 10rem;
+      left: 17.8rem;
+    }
+
+    .select {
+      left: 12rem;
+    }
+
+    .select select {
+      width: 47rem;
     }
 
     .lineText {
@@ -253,12 +338,24 @@ export const Input = styled.div`
     h1 {
       left: 22%;
     }
+    .checkTerms b {
+      top: 12.4rem;
+      left: 25.8rem;
+    }
   }
 
   @media (min-width: 700px) and (max-width: 900px) {
     .container {
-      top: 5rem;
+      top: 10rem;
       left: 8.5rem;
+    }
+
+    .select select {
+      width: 38rem;
+    }
+
+    .select {
+      left: 6rem;
     }
 
     .lineText {
@@ -269,18 +366,23 @@ export const Input = styled.div`
     h1 {
       left: 131px;
     }
+
+    .checkTerms b {
+      top: 12.4rem;
+      left: 16.5rem;
+    }
   }
 
   @media (max-width: 600px) {
     .container {
       width: 19rem;
-      top: 6.5rem;
-      left: 0.5rem;
-      font-size: 14px;
+      top: 9.8rem;
+      left: 1rem;
+      font-size: 15px;
     }
 
     .select select {
-      width: 174%;
+      width: 25rem;
     }
 
     .select {
@@ -288,9 +390,6 @@ export const Input = styled.div`
       top: 10rem;
     }
 
-    .select_arrow {
-      right: -7rem;
-    }
     .lineText {
       left: 24px;
       width: 80%;
@@ -302,8 +401,14 @@ export const Input = styled.div`
 
     h1 {
       width: 24rem;
-      left: 47px;
+      left: 23px;
       font-size: 18px;
+    }
+
+    .checkTerms b {
+      top: 12.4rem;
+      font-size: 10px;
+      left: 8.5rem;
     }
   }
 `;
@@ -326,7 +431,7 @@ export const Button = styled.div`
     display: flex;
     align-items: center;
     text-align: center;
-    padding: 1rem 5rem;
+    padding: 1rem 5.5rem;
 
     margin-bottom: 15rem;
     margin-top: 35px;
@@ -334,7 +439,7 @@ export const Button = styled.div`
 
   @media (min-width: 950px) and (max-width: 1400px) {
     a {
-      left: 38%;
+      left: 36%;
       top: 8rem;
     }
   }

@@ -245,16 +245,17 @@ const payment: React.FC = () => {
         </>
       ) : null}
       <Input>
-        <div className="container">
-          <CheckBoxInput
-            title="Aceito os Termos de Serviço e Política de Privacidade"
-            selected={selectedStudent}
-            defaultChecked={false}
-            onChange={(e: any) => {
-              setSelectedStudent(true);
-            }}
-          />
-        </div>
+        <a className="checkTerms">
+          <b>Termos de Serviço e Política de Privacidade</b>
+        </a>
+        <CheckBoxInput
+          title="Aceito os"
+          selected={selectedStudent}
+          defaultChecked={false}
+          onChange={(e: any) => {
+            setSelectedStudent(true);
+          }}
+        />
       </Input>
       <Button>
         <a>Finalizar</a>
