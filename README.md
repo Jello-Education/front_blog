@@ -74,7 +74,3 @@ Esse projeto foi desenvolvido utilizando os seguintes recursos:
 ### :memo: License
 
 Esse projeto está sob MIT license. Veja [LICENSE](https://github.com/Jello-Education/front_blog/blob/master/LICENSE) para mais informações.
-
----
-
-Feito por Bela Ferreira :blue_heart: Contato: https://www.linkedin.com/in/belapferreira :blush:
